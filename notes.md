@@ -1,3 +1,13 @@
+> **Download only these two files:** `GAGARIN_NMS_v1.0.0.zip.001` and
+> `GAGARIN_NMS_v1.0.0.zip.002`. The `.sha256` files are optional (checksums), and
+> **"Source code" is not the program** — GitHub adds those two archives to every
+> release automatically, there is only the page text inside them.
+>
+> **Качать только два файла:** `GAGARIN_NMS_v1.0.0.zip.001` и
+> `GAGARIN_NMS_v1.0.0.zip.002`. Файлы `.sha256` — по желанию (это контрольные
+> суммы), а **«Source code» — это НЕ программа**: GitHub подкладывает эти два
+> архива в любой релиз сам, внутри только текст страницы.
+
 First build for friends. No installer: unpack and run.
 Первая сборка для друзей. Установка не нужна: распаковал и запустил.
 
