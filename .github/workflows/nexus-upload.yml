@@ -1,0 +1,80 @@
+# Заливка новой версии на Nexus Mods без браузера.
+#
+# Что умеет официальный способ Nexus (Upload API + их же действие
+# Nexus-Mods/upload-action): добавить НОВУЮ ВЕРСИЮ к УЖЕ СУЩЕСТВУЮЩЕМУ файлу
+# на странице мода. Создать саму страницу и первые файлы через него нельзя —
+# это делается один раз руками в браузере.
+#
+# ЧТО НУЖНО ОДИН РАЗ:
+#   1. Создать страницу мода на Nexus и залить три части архива вручную.
+#   2. На вкладке Files у каждого файла нажать «API Info» и выписать его номер.
+#   3. Settings -> Secrets and variables -> Actions:
+#        секрет  NEXUS_API_KEY   — ключ из настроек аккаунта Nexus;
+#        переменные NEXUS_FILE_ID_1, NEXUS_FILE_ID_2, NEXUS_FILE_ID_3 — номера файлов;
+#        переменная NEXUS_MOD_ID — номер мода (нужен для записи в список изменений).
+#   Ключ хранится у GitHub и в переписку не попадает.
+#
+# ДАЛЬШЕ: Actions -> «Залить версию на Nexus» -> Run workflow, указать версию и
+# метку релиза, из которого брать файлы. Части берутся из релиза этого же
+# репозитория, поэтому сначала выложи их сюда (три куска до 1 ГБ).
+
+name: Залить версию на Nexus
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Версия, например 1.1.0'
+        required: true
+      release_tag:
+        description: 'Метка релиза этого репозитория, откуда брать части архива'
+        required: true
+      changelog:
+        description: 'Что изменилось (необязательно)'
+        required: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Взять части архива из релиза
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download "${{ inputs.release_tag }}" \
+            --repo "${{ github.repository }}" \
+            --pattern 'GAGARIN_NMS_*.zip.00*' --clobber
+          ls -lh GAGARIN_NMS_*.zip.00*
+
+      - name: Часть 1
+        uses: Nexus-Mods/upload-action@v1
+        with:
+          api_key: ${{ secrets.NEXUS_API_KEY }}
+          file_id: ${{ vars.NEXUS_FILE_ID_1 }}
+          filename: GAGARIN_NMS_v${{ inputs.version }}.zip.001
+          version: ${{ inputs.version }}
+          display_name: GAGARIN NMS ${{ inputs.version }} - part 1 of 3
+          description: 'Part 1 of 3 - download all three parts'
+          update_mod_version: true
+          mod_id: ${{ vars.NEXUS_MOD_ID }}
+          changelog: ${{ inputs.changelog }}
+
+      - name: Часть 2
+        uses: Nexus-Mods/upload-action@v1
+        with:
+          api_key: ${{ secrets.NEXUS_API_KEY }}
+          file_id: ${{ vars.NEXUS_FILE_ID_2 }}
+          filename: GAGARIN_NMS_v${{ inputs.version }}.zip.002
+          version: ${{ inputs.version }}
+          display_name: GAGARIN NMS ${{ inputs.version }} - part 2 of 3
+          description: 'Part 2 of 3 - download all three parts'
+
+      - name: Часть 3
+        uses: Nexus-Mods/upload-action@v1
+        with:
+          api_key: ${{ secrets.NEXUS_API_KEY }}
+          file_id: ${{ vars.NEXUS_FILE_ID_3 }}
+          filename: GAGARIN_NMS_v${{ inputs.version }}.zip.003
+          version: ${{ inputs.version }}
+          display_name: GAGARIN NMS ${{ inputs.version }} - part 3 of 3
+          description: 'Part 3 of 3 - download all three parts'
