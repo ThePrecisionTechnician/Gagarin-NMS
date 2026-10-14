@@ -42,7 +42,9 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 ### Automatic updates
 
-Automatic updates are included starting with version 1.1.0. If you are using version 1.0.x, install version 1.1.0 manually once; later updates can be installed from inside the app.
+The app includes automatic updates starting with version 1.1.0. If you are using version 1.0.x, install version 1.1.0 manually once; later updates can be installed from inside the app.
+
+The mirrored v1.1.0 executable still checks the original project's update feed. A future app build must be configured for this repository before installed copies can receive updates from releases published here.
 
 ### Windows warning on first launch
 
