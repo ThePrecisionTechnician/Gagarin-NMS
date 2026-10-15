@@ -19,32 +19,34 @@ Everything below was built and captured in the app.
 | ![Platform](screens/06_platforma.jpg) | ![Base at night](screens/07_baza_nochyu.jpg) |
 | Living platform | The same base at night |
 | ![Parts panel](screens/08_panel_detaley.jpg) | ![Save Manager](screens/09_save_manager.jpg) |
-| Parts panel with 1,549 in-game parts | Bases read from the game save |
+| Parts panel with 1,673 in-game parts | Bases read from the game save |
 
 ## Features
 
-- **Parts catalog:** 1,549 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
+- **Parts catalog:** 1,673 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
 - **Painting:** in-game colours and finishes, with an eyedropper to copy paint from a placed part.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
 - **Scene options:** panoramic backgrounds, ground coverings, time of day, lighting, and image settings.
-- **Base tabs and session restore:** continue work after restarting the app.
+- **Base tabs and session restore:** continue work after restarting the app; right-click tabs to rename bases or ships, with the name reflected in JSON export.
+- **GLB model import:** retain separate material colours and base-colour textures across imported model sections.
+- **Scale control:** scroll over the Scale number to adjust it with the mouse wheel.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.1.0.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.1.1.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
 There is no installer and the app does not write to the Windows registry. To uninstall it, delete the extracted folder.
 
-**Requirements:** Windows 10 or 11 (64-bit), a DirectX 12 capable GPU, and about 7 GB of disk space (about 3 GB for the archive and 3.1 GB extracted).
+**Requirements:** Windows 10 or 11 (64-bit), a DirectX 12 capable GPU, and about 1.2 GB of disk space for the archive plus extracted app, with additional space for imported-model caches and saved sessions.
 
 ### Automatic updates
 
-The app includes automatic updates starting with version 1.1.0. If you are using version 1.0.x, install version 1.1.0 manually once; later updates can be installed from inside the app.
+Fork build **1.1.1** checks this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable still checks the original project's update feed. A future app build must be configured for this repository before installed copies can receive updates from releases published here.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.1 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -73,7 +75,7 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.1.0.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.1.1.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
@@ -82,4 +84,4 @@ The resulting hash must match the value in the release notes.
 
 If something goes wrong, report what you did, what you expected, and what happened. Include your No Man's Sky version, GPU model, and the base file involved. Contact and support links are available in the app's main menu.
 
-GAGARIN NMS is free and made by one person. Part models, icons, and names belong to Hello Games; the app displays assets already present in your copy of the game.
+GAGARIN NMS was created by **autoeme**. This fork is maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the app displays assets already present in your copy of the game.
