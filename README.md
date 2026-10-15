@@ -101,4 +101,9 @@ The resulting hash must match the value in the release notes.
 
 If something goes wrong, report what you did, what you expected, and what happened. Include your No Man's Sky version, GPU model, and the base file involved. Contact and support links are available in the app's main menu.
 
+- Discord: [ThePrecisionTechnician](https://discord.com/users/262494560545013762)
+- GitHub: [ThePrecisionTechnician](https://github.com/ThePrecisionTechnician)
+
+**Support the project:** [Patreon](https://www.patreon.com/cw/ThePrecisionTechnician)
+
 GAGARIN NMS was created by **autoeme**. This fork is maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the app displays assets already present in your copy of the game.
