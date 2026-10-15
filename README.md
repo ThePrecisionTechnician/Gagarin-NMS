@@ -80,6 +80,23 @@ Get-FileHash 'GAGARIN_NMS_v1.1.1.zip' -Algorithm SHA256
 
 The resulting hash must match the value in the release notes.
 
+## Changelog
+
+### [v1.1.1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.1)
+
+- **Sharper rendering:** start at full rendering resolution, including when saved window settings already match.
+- **Mouse-wheel scaling:** hover over the Scale number and scroll up or down to resize selected parts.
+- **Rename tabs:** right-click a tab to rename a base or ship. Names persist across sessions and appear in exported JSON, with Undo/Redo support. Removed the unused search field from the tab menu.
+- **Game JSON export:** consistent field order and four-space indentation, exact numeric GalacticAddress values, and preservation of unknown metadata and numeric precision.
+- **GLB materials:** preserve separate base-colour textures and material colours through import, simplification, caching, and session restore. Also retain scalar roughness/metallic values and opaque double-sided material settings.
+- **Automatic updates:** this build uses this fork's release feed. Update checks are enabled by default and respect saved preferences.
+
+**Upgrading from the original app or v1.1.0?** Install v1.1.1 manually once to switch to this fork's update feed. Future fork releases can use the included updater.
+
+### [v1.1.0](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.0)
+
+- Initial public mirror of the original developer's build. This executable retains the original project's update feed.
+
 ## Support
 
 If something goes wrong, report what you did, what you expected, and what happened. Include your No Man's Sky version, GPU model, and the base file involved. Contact and support links are available in the app's main menu.
