@@ -106,4 +106,6 @@ If something goes wrong, report what you did, what you expected, and what happen
 
 **Support the project:** [Patreon](https://www.patreon.com/cw/ThePrecisionTechnician)
 
+---
+
 GAGARIN NMS was created by **autoeme** and was passed on and is now maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the app displays assets already present in your copy of the game.
