@@ -27,14 +27,14 @@ Everything below was built and captured in the app.
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
 - **Painting:** in-game colours and finishes, with an eyedropper to copy paint from a placed part.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
-- **Scene options:** panoramic backgrounds, ground coverings, time of day, lighting, and image settings.
+- **Scene options:** panoramic backgrounds that follow the camera, a fully black abyss background, ground coverings, time of day, lighting, and image settings.
 - **Base tabs and session restore:** continue work after restarting the app; right-click tabs to rename bases or ships, with the name reflected in JSON export.
 - **GLB model import:** retain separate material colours and base-colour textures across imported model sections.
 - **Scale control:** scroll over the Scale number to adjust it with the mouse wheel.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.1.1.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.1.2.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -44,9 +44,9 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 ### Automatic updates
 
-Fork build **1.1.1** checks this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
+Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.1 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -75,12 +75,18 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.1.1.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.1.2.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.1.2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.2)
+
+- **Surrounding backgrounds:** the panorama now follows the camera with a 1,000 km radius, keeping the view enclosed when moving or zooming far from a build.
+- **Black / Abyss:** added a fully black background as option **12** in Settings → View → Change background. Model lighting and ground controls remain independent.
+- **Saved choices:** existing backgrounds retain their numbers and saved selections.
 
 ### [v1.1.1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.1)
 
