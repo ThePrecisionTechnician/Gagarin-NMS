@@ -31,11 +31,12 @@ Everything below was built and captured in the app.
 - **Base tabs and session restore:** continue work after restarting the app; double-click or right-click tabs to rename bases or ships, with the name reflected in JSON export. Each tab remembers its camera view, and a gold dot marks unsaved changes.
 - **GLB model import:** retain separate material colours and base-colour textures across imported model sections.
 - **Numeric controls:** hover over numeric − / + controls and scroll to adjust values; right-click transform values to reset them.
-- **Keyboard shortcuts:** Ctrl+N for a new base, Esc for the menu when idle with no selection, and A to focus the origin in an empty scene.
+- **Keyboard shortcuts:** Ctrl+N for a new base, including with the 3D viewport focused; Esc for the menu when idle with no selection; A to focus the origin in an empty scene.
+- **In-app guide:** press F1 for the controls and feature instructions, including the recent editing and tab improvements.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.1.3.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.1.4.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -47,7 +48,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.4 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -76,12 +77,18 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.1.3.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.1.4.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.1.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.4)
+
+- **Ctrl+N anywhere in the builder:** New Base now works with the 3D building area focused, as well as the tabs and interface. Existing builds remain open; typing and modal-dialog protections are retained.
+- **Updated F1 instructions:** added the recent wheel controls, right-click resets, tab renaming, unsaved indicator, remembered camera views, empty-scene focus, mirror defaults, background 12, and idle Esc menu behavior. Uses the existing guide layout and all 17 supported languages.
+- **Maintainer links:** the in-builder Support the author and Discord buttons now point to ThePrecisionTechnician’s Patreon and Discord profile, matching this repository.
 
 ### [v1.1.3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.3)
 
