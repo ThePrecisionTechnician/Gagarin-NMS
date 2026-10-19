@@ -28,13 +28,14 @@ Everything below was built and captured in the app.
 - **Painting:** in-game colours and finishes, with an eyedropper to copy paint from a placed part.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
 - **Scene options:** panoramic backgrounds that follow the camera, a fully black abyss background, ground coverings, time of day, lighting, and image settings.
-- **Base tabs and session restore:** continue work after restarting the app; right-click tabs to rename bases or ships, with the name reflected in JSON export.
+- **Base tabs and session restore:** continue work after restarting the app; double-click or right-click tabs to rename bases or ships, with the name reflected in JSON export. Each tab remembers its camera view, and a gold dot marks unsaved changes.
 - **GLB model import:** retain separate material colours and base-colour textures across imported model sections.
-- **Scale control:** scroll over the Scale number to adjust it with the mouse wheel.
+- **Numeric controls:** hover over numeric − / + controls and scroll to adjust values; right-click transform values to reset them.
+- **Keyboard shortcuts:** Ctrl+N for a new base, Esc for the menu when idle with no selection, and A to focus the origin in an empty scene.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.1.2.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.1.3.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -46,7 +47,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -75,12 +76,23 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.1.2.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.1.3.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.1.3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.3)
+
+- **Storage Panel mirroring:** corrected the offset origin so STORAGEPANEL copies line up across the selected axis, including rotated panels. Existing placed parts are not moved automatically.
+- **Mirror plane:** opens at **0 cm** and resets to zero when changing axes; custom offsets and On Part remain available.
+- **Mouse-wheel controls:** hover over numeric − / + controls to adjust transforms, movement/angle steps, the mirror plane, and supported settings. Removed distracting numeric hover popups.
+- **Quick resets:** right-click individual transform values for position/rotation 0 or scale 1; reset the mirror plane to 0 cm, steps to their defaults, and menu sliders to their declared defaults.
+- **Keyboard shortcuts:** **Ctrl+N** creates a new base; **Esc** opens the main menu when no parts are selected and no operation is active; **A** focuses the origin when the scene is empty.
+- **Tab renaming:** double-click a tab title to rename it, alongside the existing right-click menu. Names continue to appear in exported JSON.
+- **Unsaved indicator:** a gold dot marks changes since the last explicit save/export. Automatic session backups do not clear it; undoing to the saved state clears it within the current session.
+- **Remembered views:** each tab retains its camera position and orientation when switching tabs and across normal restarts.
 
 ### [v1.1.2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.2)
 
