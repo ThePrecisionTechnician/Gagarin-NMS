@@ -26,6 +26,8 @@ Everything below was built and captured in the app.
 - **Parts catalog:** 1,673 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
 - **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
+- **Scene groups:** name, collapse, sort and show/hide groups; visibility controls also support highlighted parts.
+- **Text & Symbol Creator (Beta):** generate editable native-panel text or SVG artwork with Storage / Flat panels. Curves and diagonals may use too many parts; preview and save before experimenting.
 - **Painting:** in-game colours and finishes, with an eyedropper to copy paint from a placed part.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
 - **Scene options:** panoramic backgrounds that follow the camera, a fully black abyss background, ground coverings, time of day, lighting, and image settings.
@@ -37,7 +39,7 @@ Everything below was built and captured in the app.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.1.5.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.1.6.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -49,7 +51,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.5 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.6 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -78,12 +80,21 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.1.5.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.1.6.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.1.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.6)
+
+- Named, collapsible Scene groups with visibility controls and alphabetical sorting.
+- Compact interface, smaller tooltips and toolbar, and independently collapsible sidebar sections.
+- Precision scaling: Ctrl for 0.01 steps and Ctrl+Shift for 0.001, with a minimum scale of 0.001.
+- **Text & Symbol Creator (Beta)** with Storage / Flat panel selection and remembered settings. Curved and diagonal fitting is still experimental and can use excessive parts; check the preview and save before experimenting.
+- See the release notes for verification details and the unresolved group-scaling report.
+
 
 ### [v1.1.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.5)
 
