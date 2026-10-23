@@ -23,6 +23,9 @@ Everything below was built and captured in the app.
 
 ## Features
 
+- **Player references:** default race models with grayscale textures, optional holograms and idle playback/pause.
+- **Interaction zones:** toggle proximity-switch and tractor-beam activation boundaries.
+- **Import organization:** F2 renaming for prefab groups, 3D models and images, with hover highlights and session persistence.
 - **Parts catalog:** 1,673 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
 - **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
@@ -39,7 +42,7 @@ Everything below was built and captured in the app.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.1.6.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.2.2.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -51,7 +54,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.1.6 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -80,12 +83,50 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.1.6.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.2.2.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.2.2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.2)
+
+- Toggle interaction zones for proximity switches and tractor beams, using shapes, ranges and orientations from game data.
+- Default race references with textured grayscale appearance, optional cyan holograms, and idle animation playback/pause.
+- F2 renaming for prefab groups, imported 3D models and image imports, with Undo/Redo and session restore.
+- Fixed imported-model and image hover highlights; removed the redundant search field from the rename menu.
+- In-game save names in the save selector, borderless fullscreen by default on new installations, English F8 diagnostics, and updated F1 instructions.
+- Custom characters from saves remain hidden from the public UI. General part animations and powered-hover engine effects remain in development.
+
+### [v1.2.1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.1)
+
+- Player references: Anomaly, Korvax, Vy’keen, Traveller and Autophage.
+- Independent hologram/textured appearance, gizmo movement and rotation, Ctrl stepping, Scene selection and hover outlines.
+- References are session-only guides, excluded from base exports and part counts. Custom characters from saves are not included in this version.
+
+### [v1.2.0](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.0)
+
+- Reviewed Meridian alphabet A–Z and digits 0–9.
+- Separate Text Creator and Symbol Creator, sizes in metres and simpler text controls.
+- Improved SVG declarations and artwork visibility at a distance and after changing tabs.
+- Scene Show all / Hide all and duplication confirmation. Version 1.1.10 was superseded by 1.2.0.
+
+### [v1.1.9](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.9)
+
+- Mouse thumb-button camera panning and Ctrl+A for visible parts.
+- Sidebar simplification, standalone window controls and New Base placement after the last tab.
+- Creator controls and Horizon V improvements; updated F1 guide.
+
+### [v1.1.8](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.8)
+
+- Fixed F2 group renaming when the viewport has keyboard focus.
+
+### [v1.1.7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.7)
+
+- Copy/paste position, rotation and scale; F2 group renaming.
+- Menu dismissal, tooltip improvements and a larger Save Manager.
+- Compact creator controls and improved straight-stroke panel fitting.
 
 ### [v1.1.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.1.6)
 
