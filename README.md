@@ -93,7 +93,7 @@ The resulting hash must match the value in the release notes.
 ### [v1.2.2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.2)
 
 - Toggle interaction zones for proximity switches and tractor beams, using shapes, ranges and orientations from game data.
-- Default race references with textured grayscale appearance, optional cyan holograms, and idle animation playback/pause.
+- Default race references with textured grayscale appearance, optional cyan holograms, and idle animation On by default with playback/pause controls.
 - F2 renaming for prefab groups, imported 3D models and image imports, with Undo/Redo and session restore.
 - Fixed imported-model and image hover highlights; removed the redundant search field from the rename menu.
 - In-game save names in the save selector, borderless fullscreen by default on new installations, English F8 diagnostics, and updated F1 instructions.
