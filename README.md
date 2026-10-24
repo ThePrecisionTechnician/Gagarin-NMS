@@ -23,6 +23,8 @@ Everything below was built and captured in the app.
 
 ## Features
 
+- **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
+- **Corvette and base utility finder:** Show utilities labels cockpits, docking equipment, teleporters, trade terminals and other functional parts with readable names, gold pointers and subtle outlines. Utilities stay visible over Hide all while enabled.
 - **Player references:** default race models with grayscale textures, optional holograms and idle playback/pause.
 - **Interaction zones:** toggle proximity-switch and tractor-beam activation boundaries.
 - **Import organization:** F2 renaming for prefab groups, 3D models and images, with hover highlights and session persistence.
@@ -31,7 +33,7 @@ Everything below was built and captured in the app.
 - **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
 - **Scene groups:** name, collapse, sort and show/hide groups; visibility controls also support highlighted parts.
 - **Text & Symbol Creator (Beta):** generate editable native-panel text or SVG artwork with Storage / Flat panels. Curves and diagonals may use too many parts; preview and save before experimenting.
-- **Painting:** in-game colours and finishes, with an eyedropper to copy paint from a placed part.
+- **Painting:** in-game colours and finishes, with an eyedropper and highlights for the selected part’s saved scheme. Controls are disabled for parts that cannot be recoloured.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
 - **Scene options:** panoramic backgrounds that follow the camera, a fully black abyss background, ground coverings, time of day, lighting, and image settings.
 - **Base tabs and session restore:** continue work after restarting the app; double-click or right-click tabs to rename bases or ships, with the name reflected in JSON export. Each tab remembers its camera view, and a gold dot marks unsaved changes.
@@ -42,7 +44,7 @@ Everything below was built and captured in the app.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.2.2.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.2.3.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -54,7 +56,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -83,12 +85,29 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.2.2.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.2.3.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.2.3 — Electrical Networks & Utilities](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.3)
+
+**Electrical network overhaul**
+
+- Inspect the entire network with **P**, including dimmer cable sections and nodes behind parts. Hide all leaves wiring under its independent P control.
+- Electrical and teleport connections follow their sockets when parts move, rotate or scale. Click either cable endpoint to edit that end with its ring or Move gizmo.
+- Translucent cyan electrical cables and yellow teleport cables have matching glowing nodes, moving pulses and full-length hover feedback. These are visual guides, not simulated power.
+- **Connected parts only** isolates electrically or teleport-linked parts, including unpowered circuits, and restores previous visibility when switched off.
+
+**Corvette and base utilities**
+
+- **Show utilities** pinpoints cockpits, landing/docking equipment, teleporters, trade terminals, signal boosters and other functional parts with localized names, gold leader lines and thin gold outlines.
+- Labels face the camera and remain readable at different part scales and zoom levels. Overlap avoidance prioritizes nearby and hovered utilities in crowded views.
+- Utility outlines are half as strong as hover outlines. Utilities remain visible over Hide all and Connected parts only while enabled; switching off restores visibility choices.
+
+**Also improved:** selected paint feedback and disabled controls for non-recolourable parts; G cycles grid+axes / axes only / off; grouped-part visibility toggle; short-range teleporter selection; smaller Move-gizmo centre; borderless fullscreen on every startup; concise F1 instructions.
 
 ### [v1.2.2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.2)
 
