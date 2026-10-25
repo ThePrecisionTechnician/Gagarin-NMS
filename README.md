@@ -15,6 +15,10 @@ Recent views from GAGARIN NMS: utility labels, imported models and wiring inspec
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Utility labels locate functional parts throughout a corvette interior](screens/interior-utility-labels.png) |
 | **Wire mode:** electrical and teleport networks visible through the corvette hull, with connected equipment outlined. | **Interior utility finder:** labels pinpoint cockpit, landing bay, teleporter and weapon components within the build. |
 
+![The in-app auto-updater downloads version 1.2.5 with the SC Night Mercury corvette open in the refreshed workspace](screens/auto-updater-workspace.png)
+
+**Auto-updater and refreshed workspace:** downloading an update in-app with the SC Night Mercury corvette open.
+
 ## Features
 
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
