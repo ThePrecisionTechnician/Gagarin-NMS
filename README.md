@@ -4,22 +4,16 @@ A free base editor for **No Man's Sky**. Build a base in the app, then load it i
 
 Download the latest version from [Releases](../../releases).
 
-![A temple built in the app](screens/01_hram_snaruzhi.jpg)
-
 ## Screenshots
 
-Everything below was built and captured in the app.
+Recent views from GAGARIN NMS: utility labels, imported models and wiring inspection.
 
 | | |
 |---|---|
-| ![Inside the temple](screens/02_hram_vnutri.jpg) | ![Corvette in space](screens/03_korvet_kosmos.jpg) |
-| Inside the same build | Corvette against the Milky Way |
-| ![Corvette interior](screens/04_korvet_vnutri.jpg) | ![Station interior](screens/05_stanciya_vnutri.jpg) |
-| Corvette interior | Station interior |
-| ![Platform](screens/06_platforma.jpg) | ![Base at night](screens/07_baza_nochyu.jpg) |
-| Living platform | The same base at night |
-| ![Parts panel](screens/08_panel_detaley.jpg) | ![Save Manager](screens/09_save_manager.jpg) |
-| Parts panel with 1,673 in-game parts | Bases read from the game save |
+| ![Utility labels identify corvette cockpits, landing bays and base equipment](screens/utilities-overview.png) | ![Imported Star Destroyer model displayed in the build workspace](screens/imported-star-destroyer.png) |
+| **Show utilities:** labelled cockpits, landing bays, teleporters and electrical equipment. | **Model import:** a Star Destroyer reference model in the build workspace. |
+| ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Utility labels locate functional parts throughout a corvette interior](screens/interior-utility-labels.png) |
+| **Wire mode:** electrical and teleport networks visible through the corvette hull, with connected equipment outlined. | **Interior utility finder:** labels pinpoint cockpit, landing bay, teleporter and weapon components within the build. |
 
 ## Features
 
