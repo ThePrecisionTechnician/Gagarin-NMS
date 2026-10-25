@@ -29,7 +29,7 @@ Recent views from GAGARIN NMS: utility labels, imported models and wiring inspec
 - **Text & Symbol Creator (Beta):** generate editable native-panel text or SVG artwork with Storage / Flat panels. Curves and diagonals may use too many parts; preview and save before experimenting.
 - **Painting:** in-game colours and finishes, with an eyedropper and highlights for the selected part’s saved scheme. Controls are disabled for parts that cannot be recoloured.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
-- **Scene options:** panoramic backgrounds that follow the camera, a fully black abyss background, ground coverings, time of day, lighting, and image settings.
+- **Scene options:** panoramic backgrounds that follow the camera, black, Off-white and White backgrounds, ground coverings, time of day, lighting, and image settings.
 - **Base tabs and session restore:** continue work after restarting the app; double-click or right-click tabs to rename bases or ships, with the name reflected in JSON export. Each tab remembers its camera view, and a gold dot marks unsaved changes.
 - **GLB model import:** retain separate material colours and base-colour textures across imported model sections.
 - **Numeric controls:** hover over numeric − / + controls and scroll to adjust values; right-click transform values to reset them.
@@ -38,7 +38,7 @@ Recent views from GAGARIN NMS: utility labels, imported models and wiring inspec
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.2.4.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.2.5.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -50,7 +50,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.5 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -79,12 +79,20 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.2.4.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.2.5.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.2.5 — Clearer Axes & Backgrounds](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.5)
+
+- New **Off-white** and **White** backgrounds.
+- Muted gray-blue Y and medium-gray Z gizmo axes, with matching bottom-left orientation colors.
+- Thicker ground axes in **G's axes-only mode**.
+- Move arrows are 20% thinner, with unchanged click tolerance; gizmo handles have 20% transparency.
+- Refreshed screenshot gallery showing utilities, wiring overlays and a Resurgent Class Star Destroyer GLB model.
 
 ### [v1.2.4 - Clearer Wiring Highlights](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.4)
 
