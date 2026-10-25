@@ -44,7 +44,7 @@ Everything below was built and captured in the app.
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.2.3.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.2.4.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -85,12 +85,18 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.2.3.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.2.4.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.2.4 - Clearer Wiring Highlights](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.4)
+
+- Connected electrical and teleport equipment gains a gold outline in **P / wire mode**, visible through surrounding parts at 50% of the main selection highlight strength.
+- Fixed connected outlines staying visible with P off. Wire-mode outlines now follow P directly; hover and selection remain stronger.
+- **Show utilities** excludes Sphere Creator and Light Floor to reduce label and outline clutter. Its toggle remains independent of P.
 
 ### [v1.2.3 — Electrical Networks & Utilities](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.3)
 
