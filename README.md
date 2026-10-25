@@ -10,8 +10,8 @@ Recent views from GAGARIN NMS: utility labels, imported models and wiring inspec
 
 | | |
 |---|---|
-| ![Utility labels identify corvette cockpits, landing bays and base equipment](screens/utilities-overview.png) | ![Imported Star Destroyer model displayed in the build workspace](screens/imported-star-destroyer.png) |
-| **Show utilities:** labelled cockpits, landing bays, teleporters and electrical equipment. | **Model import:** a Star Destroyer reference model in the build workspace. |
+| ![Utility labels identify corvette cockpits, landing bays and base equipment](screens/utilities-overview.png) | ![Resurgent Class Star Destroyer GLB model displayed in the build workspace](screens/imported-star-destroyer.png) |
+| **Show utilities:** labelled cockpits, landing bays, teleporters and electrical equipment. | **Model import:** a Resurgent Class Star Destroyer GLB model in the build workspace. |
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Utility labels locate functional parts throughout a corvette interior](screens/interior-utility-labels.png) |
 | **Wire mode:** electrical and teleport networks visible through the corvette hull, with connected equipment outlined. | **Interior utility finder:** labels pinpoint cockpit, landing bay, teleporter and weapon components within the build. |
 
