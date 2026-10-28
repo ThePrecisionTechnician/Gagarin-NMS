@@ -42,7 +42,7 @@ Recent views from GAGARIN NMS: utility labels, imported models and wiring inspec
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.2.5.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.2.6.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -54,7 +54,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.5 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.6 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -83,12 +83,22 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.2.5.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.2.6.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.2.6 — Painting, Model Transparency & Wiring Fixes](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.6)
+
+- Restored color and finish controls for every part in the **Space Station** category, including annexe decorations.
+- Improved **imported-model transparency** across material slots while preserving textures and colors. Selection no longer changes the model's transparency, and opacity is restored when reopening a build.
+- Brighter **electrical and teleport connection orbs**, visible through surrounding parts in wire mode, with dimmer glow when obscured.
+- Added **Power** and **Teleport** snap feedback beside connection targets, plus brief confirmation after connecting.
+- Hidden parts now hide their associated effects and lights in **Connected parts only** mode.
+- Extended origin axes for very large builds, with consistent visible line widths.
+- Larger, clearer measurement labels follow the ruler line and remain upright, with a dark background for readability.
 
 ### [v1.2.5 — Clearer Axes & Backgrounds](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.5)
 
