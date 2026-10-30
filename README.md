@@ -6,20 +6,24 @@ Download **[GAGARIN NMS 1.3.0 — Insignia](https://github.com/ThePrecisionTechn
 
 ## Screenshots
 
-Recent views from GAGARIN NMS: utility labels, imported models, wiring inspection and the Emblem Creator.
+Explore the workspace and creation tools. Click any screenshot to view it at full size.
+
+![Main workspace with Maul's Scimitar, compact toolbar and scene controls](screens/main-workspace.jpg)
+
+**Main workspace:** build and inspect ships with the scene list, transform controls and paint palette close at hand.
 
 | | |
 |---|---|
-| ![Emblem Creator interface with built-in Star Wars emblems and a Galactic Empire panel preview](screens/emblem-creator-interface.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
-| **Emblem Creator:** import SVG artwork or choose a built-in emblem, adjust panel settings, and preview the result. | **Generated emblems:** Rebel Alliance and Sith Order designs built from native panels. |
-| ![Utility labels identify corvette cockpits, landing bays and base equipment](screens/utilities-overview.png) | ![Resurgent Class Star Destroyer GLB model displayed in the build workspace](screens/imported-star-destroyer.png) |
-| **Show utilities:** labelled cockpits, landing bays, teleporters and electrical equipment. | **Model import:** a Resurgent Class Star Destroyer GLB model in the build workspace. |
-| ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Utility labels locate functional parts throughout a corvette interior](screens/interior-utility-labels.png) |
-| **Wire mode:** electrical and teleport networks visible through the corvette hull, with connected equipment outlined. | **Interior utility finder:** labels pinpoint cockpit, landing bay, teleporter and weapon components within the build. |
-
-![The in-app auto-updater downloads version 1.2.5 with the SC Night Mercury corvette open in the refreshed workspace](screens/auto-updater-workspace.png)
-
-**Auto-updater and refreshed workspace:** downloading an update in-app with the SC Night Mercury corvette open.
+| ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.jpg) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
+| **Quad View:** inspect a build from four fixed viewpoints. | **Parts browser:** browse categories and choose parts visually. |
+| ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.jpg) |
+| **Transforms and painting:** precise group controls, colours and material finishes. | **Utility finder:** locate functional equipment throughout a build. |
+| ![Text Creator preview of KUAT DRIVE YARDS using 181 native panels](screens/text-creator.png) | ![Emblem Creator with nine white emblem thumbnails and a Galactic Empire preview](screens/emblem-creator-interface.jpg) |
+| **Text Creator:** preview Meridian lettering built from native panels. | **Emblem Creator:** import SVG artwork or choose from nine built-in emblems. |
+| ![Textured TIE Phantom model with transform and transparency controls](screens/textured-model-controls.jpg) | ![Save Manager showing corvette saves with account details hidden](screens/save-manager.png) |
+| **Model import:** textured reference models with transform and transparency controls. | **Save Manager:** browse and open game saves, then write builds back. Account details are hidden in this screenshot. |
+| ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
+| **Wire mode:** inspect electrical and teleport networks through a hull. | **Generated emblems:** Rebel Alliance and Sith Order designs made from native panels. |
 
 ## Features
 
