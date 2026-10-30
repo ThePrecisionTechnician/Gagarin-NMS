@@ -2,19 +2,19 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.0 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.0)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.1 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.1)** from [Releases](../../releases).
 
 ## Screenshots
 
 Explore the workspace and creation tools. Click any screenshot to view it at full size.
 
-![Main workspace with Maul's Scimitar, compact toolbar and scene controls](screens/main-workspace.jpg)
+![Main workspace with X70B Phantom, compact toolbar and scene controls](screens/main-workspace.png)
 
 **Main workspace:** build and inspect ships with the scene list, transform controls and paint palette close at hand.
 
 | | |
 |---|---|
-| ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.jpg) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
+| ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.png) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
 | **Quad View:** inspect a build from four fixed viewpoints. | **Parts browser:** browse categories and choose parts visually. |
 | ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.jpg) |
 | **Transforms and painting:** precise group controls, colours and material finishes. | **Utility finder:** locate functional equipment throughout a build. |
@@ -37,7 +37,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 - **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
 - **Scene groups:** name, collapse, sort and show/hide groups; visibility controls also support highlighted parts.
 - **Text & Emblem Creator:** generate editable native-panel text or SVG artwork with Storage / Flat panels. Emblem Creator is adapted from [NMScribe by FuriousFurby](https://github.com/slipperystickers/nms-text-generator), with nine built-in emblems, custom SVG import, detail levels 1–10, and a 2,000-part default budget (3,000 maximum). Complex artwork may need simpler geometry or a higher limit.
-- **Quad View:** edit in fixed Top, Isometric, Front and Right views with shared selection and changes, middle-mouse panning, wheel zoom, and layout persistence across tabs.
+- **Quad View:** edit in fixed Top, Isometric, Front and Right views with shared selection and changes, middle-mouse panning, wheel zoom, and independent pane zoom and framing saved per tab.
 - **Compact workspace:** icon-and-label toolbar, translucent view picker, category-and-grid parts browser, and a full-height scene list beside the transform and paint controls.
 - **Painting:** in-game colours and finishes, with an eyedropper and highlights for the selected part’s saved scheme. Controls are disabled for parts that cannot be recoloured.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
@@ -50,7 +50,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.3.0.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.3.1.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -62,7 +62,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.0 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.1 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -91,12 +91,23 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.0.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.1.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.1 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.1)
+
+- **Quad View camera memory:** Each tab remembers its own pane zoom and framing. Top, Isometric, Front and Right stay fixed when switching between differently sized builds. Single-view camera saving is unchanged.
+- **Cleaner selection outlines:** Corrected overly thick highlights in Quad View.
+- **New studio backgrounds:** Added Metallic Gray Blue and Metallic Gray gradients.
+- **Orthographic background fixes:** Panoramas now frame correctly in orthographic single and Quad View panes, including City 17 and Imperial Hangar.
+- **Refined visual defaults:** Updated first-launch lighting, background and time-of-day defaults. Existing saved preferences are preserved.
+- **Emblem catalog polish:** All nine built-in emblem thumbnails are white, including Sith Eternal.
+- **Simpler settings:** Removed the duplicate camera selector from Settings; view controls remain on the toolbar.
+- **Updated feature gallery:** New workspace, Quad View, creator, parts browser, model and Save Manager screenshots on the repository main page.
 
 ### [v1.3.0 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.0)
 
