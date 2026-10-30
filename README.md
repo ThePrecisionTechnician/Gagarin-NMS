@@ -25,6 +25,10 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
 | **Wire mode:** inspect electrical and teleport networks through a hull. | **Generated emblems:** Rebel Alliance and Sith Order designs made from native panels. |
 
+![Show part names identifying components on the AEG-77 Vigo Gunboat](screens/show-part-names.png)
+
+**Show part names:** identify components directly in the viewport with readable labels, and display part names in the scene list.
+
 ## Features
 
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
