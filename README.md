@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download the latest version from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.0 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.0)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -10,12 +10,12 @@ Recent views from GAGARIN NMS: utility labels, imported models, wiring inspectio
 
 | | |
 |---|---|
+| ![Emblem Creator interface with built-in Star Wars emblems and a Galactic Empire panel preview](screens/emblem-creator-interface.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
+| **Emblem Creator:** import SVG artwork or choose a built-in emblem, adjust panel settings, and preview the result. | **Generated emblems:** Rebel Alliance and Sith Order designs built from native panels. |
 | ![Utility labels identify corvette cockpits, landing bays and base equipment](screens/utilities-overview.png) | ![Resurgent Class Star Destroyer GLB model displayed in the build workspace](screens/imported-star-destroyer.png) |
 | **Show utilities:** labelled cockpits, landing bays, teleporters and electrical equipment. | **Model import:** a Resurgent Class Star Destroyer GLB model in the build workspace. |
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Utility labels locate functional parts throughout a corvette interior](screens/interior-utility-labels.png) |
 | **Wire mode:** electrical and teleport networks visible through the corvette hull, with connected equipment outlined. | **Interior utility finder:** labels pinpoint cockpit, landing bay, teleporter and weapon components within the build. |
-| ![Emblem Creator interface with built-in Star Wars emblems and a Galactic Empire panel preview](screens/emblem-creator-interface.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
-| **Emblem Creator:** import SVG artwork or choose a built-in emblem, adjust panel settings, and preview the result. | **Generated emblems:** Rebel Alliance and Sith Order designs built from native panels. |
 
 ![The in-app auto-updater downloads version 1.2.5 with the SC Night Mercury corvette open in the refreshed workspace](screens/auto-updater-workspace.png)
 
@@ -28,11 +28,13 @@ Recent views from GAGARIN NMS: utility labels, imported models, wiring inspectio
 - **Player references:** default race models with grayscale textures, optional holograms and idle playback/pause.
 - **Interaction zones:** toggle proximity-switch and tractor-beam activation boundaries.
 - **Import organization:** F2 renaming for prefab groups, 3D models and images, with hover highlights and session persistence.
-- **Parts catalog:** 1,673 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
+- **Parts catalog:** 1,885 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
 - **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
 - **Scene groups:** name, collapse, sort and show/hide groups; visibility controls also support highlighted parts.
-- **Text & Symbol Creator (Beta):** generate editable native-panel text or SVG artwork with Storage / Flat panels. Curves and diagonals may use too many parts; preview and save before experimenting.
+- **Text & Emblem Creator:** generate editable native-panel text or SVG artwork with Storage / Flat panels. Emblem Creator is adapted from [NMScribe by FuriousFurby](https://github.com/slipperystickers/nms-text-generator), with nine built-in emblems, custom SVG import, detail levels 1–10, and a 2,000-part default budget (3,000 maximum). Complex artwork may need simpler geometry or a higher limit.
+- **Quad View:** edit in fixed Top, Isometric, Front and Right views with shared selection and changes, middle-mouse panning, wheel zoom, and layout persistence across tabs.
+- **Compact workspace:** icon-and-label toolbar, translucent view picker, category-and-grid parts browser, and a full-height scene list beside the transform and paint controls.
 - **Painting:** in-game colours and finishes, with an eyedropper and highlights for the selected part’s saved scheme. Controls are disabled for parts that cannot be recoloured.
 - **Save editing:** read bases from a No Man's Sky save and write them back.
 - **Scene options:** panoramic backgrounds that follow the camera, black, Off-white and White backgrounds, ground coverings, time of day, lighting, and image settings.
@@ -44,7 +46,7 @@ Recent views from GAGARIN NMS: utility labels, imported models, wiring inspectio
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.2.6.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.3.0.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -56,7 +58,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.2.6 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.0 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -85,12 +87,48 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.2.6.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.0.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.0 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.0)
+
+- **Emblem Creator**, adapted from NMScribe by FuriousFurby: custom SVG import and nine built-in emblems, thumbnail selection, colour matching, previews, and native Storage / Flat panel generation.
+- Detail **1–10**, default **5**; default **2,000-part** budget and **3,000-part** maximum. Emblems generate centred at the ground origin, smooth face upward, without an added background.
+- **Quad View:** shared editing across fixed Top, Isometric, Front and Right views; middle-mouse pan, wheel zoom, and persistent layout when switching tabs.
+- Refreshed workspace with a slim icon-and-label toolbar, compact translucent View menu, narrower controls, full-height scene list, and improved smaller-screen and ultrawide layouts.
+- Parts browser polish, consistent typography, gold part counts, full-width paint swatches, clearer tooltips and custom creator icons. Text Creator defaults to **KUAT DRIVE YARDS**.
+- Fixed orange speckled selection fill around imported references. **A / Fit All** ignores U_PARAGON; selecting it and pressing **F** still focuses it.
+- Clearer **Open / save bases in game saves** menu and updated instructions and translations.
+
+**Thank you, FuriousFurby!** For allowing us to bring [NMScribe](https://github.com/slipperystickers/nms-text-generator) into GAGARIN's Emblem Creator.
+
+### [v1.2.9 — Mirroring & Compatibility](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.9)
+
+- Added Microsoft Store, Xbox app / PC Game Pass and GOG installation discovery, modern Xbox PC WGS save editing, and GOG save discovery. Live storefront tester acceptance remains pending; see the release notes for details.
+- Improved low-memory loading through idle texture-cache reclamation and refreshed budget checks, while retaining the critical-memory guard.
+- Clearer **Mirror shape** and **Readable copy** modes, readable panel-text mirroring, and corrected wings, turrets, sofas, corridors, hull variants and S_MACHINE0 orientation.
+- Added standard **Ctrl+X / Ctrl+V** cut and paste with Undo/Redo and locked-part protection.
+- Disabled Paint for eight fixed-colour decorations; mixed selections still paint supported parts. Updated the guide and all 17 translations.
+
+### [v1.2.8 — Forsaken Revision](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.8)
+
+- Front, Rear, Left, Right, Top, Bottom and Isometric camera presets with framing controls; fixed Top-view clipping during zoom.
+- Corrected cockpit mirror placement and R-wing counterpart pairing.
+- Improved parts navigation with localized categories, adjustable tiles, optional names and a resizable panel; reorganized BASE, VIEW, LIGHT and GENERAL settings.
+- Added **Ctrl+R** to reset selected transforms, clearer selection outlines, refined grids and doubled visible grid range.
+- New studio and hangar backgrounds; corrected grayscale GLB textures and material transparency, plus catalog polish.
+
+### [v1.2.7 — Forsaken Update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.7)
+
+- Compatibility with No Man's Sky Forsaken and new building parts.
+- Consolidated Corvette variant families and improved tractor-beam placement in the catalog.
+- Part and group locking, newest-first scene ordering and pinned imported models.
+- Improved precision controls, file shortcuts, new tabs and F1 instructions.
+- Dark file dialogs, GLB/OBJ/STL file selection, scale-preserving player-reference Reset and clearer selection outlines.
 
 ### [v1.2.6 — Painting, Model Transparency & Wiring Fixes](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.2.6)
 
