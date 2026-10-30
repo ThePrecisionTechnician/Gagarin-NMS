@@ -14,7 +14,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 | | |
 |---|---|
-| ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.jpg) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
+| ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.png) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
 | **Quad View:** inspect a build from four fixed viewpoints. | **Parts browser:** browse categories and choose parts visually. |
 | ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.jpg) |
 | **Transforms and painting:** precise group controls, colours and material finishes. | **Utility finder:** locate functional equipment throughout a build. |
