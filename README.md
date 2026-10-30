@@ -8,7 +8,7 @@ Download **[GAGARIN NMS 1.3.1 — Insignia](https://github.com/ThePrecisionTechn
 
 Explore the workspace and creation tools. Click any screenshot to view it at full size.
 
-![Main workspace with Maul's Scimitar, compact toolbar and scene controls](screens/main-workspace.jpg)
+![Main workspace with X70B Phantom, compact toolbar and scene controls](screens/main-workspace.png)
 
 **Main workspace:** build and inspect ships with the scene list, transform controls and paint palette close at hand.
 
