@@ -6,7 +6,7 @@ Download the latest version from [Releases](../../releases).
 
 ## Screenshots
 
-Recent views from GAGARIN NMS: utility labels, imported models and wiring inspection.
+Recent views from GAGARIN NMS: utility labels, imported models, wiring inspection and the Emblem Creator.
 
 | | |
 |---|---|
@@ -14,6 +14,8 @@ Recent views from GAGARIN NMS: utility labels, imported models and wiring inspec
 | **Show utilities:** labelled cockpits, landing bays, teleporters and electrical equipment. | **Model import:** a Resurgent Class Star Destroyer GLB model in the build workspace. |
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Utility labels locate functional parts throughout a corvette interior](screens/interior-utility-labels.png) |
 | **Wire mode:** electrical and teleport networks visible through the corvette hull, with connected equipment outlined. | **Interior utility finder:** labels pinpoint cockpit, landing bay, teleporter and weapon components within the build. |
+| ![Emblem Creator interface with built-in Star Wars emblems and a Galactic Empire panel preview](screens/emblem-creator-interface.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
+| **Emblem Creator:** import SVG artwork or choose a built-in emblem, adjust panel settings, and preview the result. | **Generated emblems:** Rebel Alliance and Sith Order designs built from native panels. |
 
 ![The in-app auto-updater downloads version 1.2.5 with the SC Night Mercury corvette open in the refreshed workspace](screens/auto-updater-workspace.png)
 
