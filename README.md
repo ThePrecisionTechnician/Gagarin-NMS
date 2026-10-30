@@ -16,7 +16,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 |---|---|
 | ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.png) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
 | **Quad View:** inspect a build from four fixed viewpoints. | **Parts browser:** browse categories and choose parts visually. |
-| ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.jpg) |
+| ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.png) |
 | **Transforms and painting:** precise group controls, colours and material finishes. | **Utility finder:** locate functional equipment throughout a build. |
 | ![Text Creator preview of KUAT DRIVE YARDS using 181 native panels](screens/text-creator.png) | ![Emblem Creator with nine white emblem thumbnails and a Galactic Empire preview](screens/emblem-creator-interface.jpg) |
 | **Text Creator:** preview Meridian lettering built from native panels. | **Emblem Creator:** import SVG artwork or choose from nine built-in emblems. |
@@ -24,6 +24,10 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 | **Model import:** textured reference models with transform and transparency controls. | **Save Manager:** browse and open game saves, then write builds back. Account details are hidden in this screenshot. |
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
 | **Wire mode:** inspect electrical and teleport networks through a hull. | **Generated emblems:** Rebel Alliance and Sith Order designs made from native panels. |
+
+![Show part names identifying components on the AEG-77 Vigo Gunboat](screens/show-part-names.png)
+
+**Show part names:** identify components directly in the viewport with readable labels, and display part names in the scene list.
 
 ## Features
 
