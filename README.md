@@ -16,7 +16,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 |---|---|
 | ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.png) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
 | **Quad View:** inspect a build from four fixed viewpoints. | **Parts browser:** browse categories and choose parts visually. |
-| ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.jpg) |
+| ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.png) |
 | **Transforms and painting:** precise group controls, colours and material finishes. | **Utility finder:** locate functional equipment throughout a build. |
 | ![Text Creator preview of KUAT DRIVE YARDS using 181 native panels](screens/text-creator.png) | ![Emblem Creator with nine white emblem thumbnails and a Galactic Empire preview](screens/emblem-creator-interface.jpg) |
 | **Text Creator:** preview Meridian lettering built from native panels. | **Emblem Creator:** import SVG artwork or choose from nine built-in emblems. |
