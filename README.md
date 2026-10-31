@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.1 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.1)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.2 — Insignia Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.2)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -67,7 +67,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.3.1.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.3.2.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -79,7 +79,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.1 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -108,12 +108,24 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.1.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.2.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.2 — Insignia Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.2)
+
+- **Save Base As fixed:** Groups, group names and imported-model references survive reopening Builder base files. Referenced model files must remain at their original paths.
+- **Group merging and names:** Add parts to an existing group while retaining its name. Saved names display during loading, and groups stay above loose parts.
+- **Ctrl+drag selection:** Add or remove boxed parts from the current selection, preserving parts outside the box. Ctrl+click misses preserve selection.
+- **Box selection over parts:** Drag a selection box from part surfaces even with an active selection. Move parts using gizmo handles.
+- **Distinct hover outlines:** Cyan-teal with a dark border identifies hovered parts inside orange selections.
+- **Panel visibility:** Storage Panel and Flat Panel artwork stays visible farther away, including after reopening game-save data.
+- **Utility guides:** Stronger outlines through surrounding geometry, at half hover-highlight opacity.
+- **Station totals:** Hidden service records count toward the displayed total while remaining invisible and unselectable.
+- **Guide and gallery:** Updated F1 selection instructions and new workspace, station, utilities, electrical-grid and custom-thumbnail screenshots.
 
 ### [v1.3.1 — Insignia](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.1)
 
