@@ -34,6 +34,10 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 **Space-station rendering:** view station geometry alongside your build to check scale and placement.
 
+![Space-station base interior with custom lettering and an emblem](screens/space-station-interior.png)
+
+**Space-station interiors:** inspect your base inside the rendered station, with interior geometry, materials and lighting visible alongside your custom build.
+
 ![Custom base and ship thumbnails with an enlarged Death Star preview](screens/custom-base-ship-thumbnails.png)
 
 **Custom base and ship thumbnails:** recognize saved builds at a glance, with enlarged previews on hover. Account and save-slot details are hidden in this screenshot.
