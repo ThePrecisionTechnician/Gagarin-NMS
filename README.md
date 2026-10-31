@@ -34,6 +34,10 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 **Space-station rendering:** view station geometry alongside your build to check scale and placement.
 
+![Custom base and ship thumbnails with an enlarged Death Star preview](screens/custom-base-ship-thumbnails.png)
+
+**Custom base and ship thumbnails:** recognize saved builds at a glance, with enlarged previews on hover. Account and save-slot details are hidden in this screenshot.
+
 ## Features
 
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
