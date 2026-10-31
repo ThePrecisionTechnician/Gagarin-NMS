@@ -30,6 +30,10 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 | ![Show part names identifying components on the AEG-77 Vigo Gunboat](screens/show-part-names.png) | ![Isolated electrical grid with connected equipment and wiring](screens/electrical-grid-isolation.png) |
 | **Show part names:** identify components directly in the viewport with readable labels, and display part names in the scene list. | **Electrical grid isolation:** use Connected parts only to isolate connected equipment and inspect its wiring. |
 
+![Space-station rendering with Kitami Junction and an Executor build](screens/space-station-rendering.png)
+
+**Space-station rendering:** view station geometry alongside your build to check scale and placement.
+
 ## Features
 
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
