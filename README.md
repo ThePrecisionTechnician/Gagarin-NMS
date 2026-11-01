@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.4 — Save Manager Name Sync](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.4)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.5 — Precision](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.5)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -108,12 +108,26 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.4.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.5.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.5 — Precision](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.5)
+
+- **Faster panel access:** Tab toggles Scene / Parts; grave/tilde toggles Transform / Paint.
+- **Camera shortcuts:** F3 returns to Origin; F4 toggles Isometric/Perspective; F5 Front/Rear; F6 Left/Right; F7 Top/Bottom; F8 Quad View. F9 toggles snap points, F10 input diagnostics, and F11 remains Fullscreen.
+- **Clear tool feedback:** Brief popups identify tools, camera views and orientation changes. T now cycles World, Part, View and Under; separate saved feedback preferences are available in File.
+- **Persistent Color Dropper:** Sample a part's paint and finish, then apply them to other parts. Hover feedback identifies the scheme; reactivate the tool to reset the sample, or press Esc to exit.
+- **Paint responsiveness:** Faster paint/finish switching and clearer orange selection borders without covering the swatch artwork.
+- **Engine effects corrected:** Hull paint and finishes no longer turn supported engine and landing-thruster effects white or make them disappear. File → Light adds saved On/Off controls and Engine % from 0–100, defaulting to 100%.
+- **Tractor beam preview:** Animated cyan cones and native beam effects, with an independent saved On/Off control.
+- **Catalog clarity:** Left/right variants carry ( L ) / ( R ) labels; cleaned thumbnail backgrounds and scene-list name labels make parts easier to identify.
+- **Interface polish:** Matching gold panel headers, consistent toolbar icons, full-button Free/Wiring active highlights, and matching translucent Batch/Create menus.
+- **Safer reference controls:** Unsupported painting and mirroring are disabled for player references; Traveller and unfinished cladding options are removed.
+- **Grid and instructions:** Restored isometric axes and readable floor direction labels, plus updated F1 guidance and translations across 17 languages.
 
 ### [v1.3.4 — Save Manager Name Sync](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.4)
 
