@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.6 — Precision II](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.6)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.7 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.7)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -111,12 +111,17 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.6.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.7.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.7 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.7)
+
+- Fixed X/Y/Z extent measurements stopping short on builds with batched parts; visible geometry is included while deliberately hidden parts remain excluded.
+- Restored connected-piece outlines through covering native parts in Wiring mode, with normal rendering restored when Wiring is switched off.
 
 ### [v1.3.6 — Precision II](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.6)
 
