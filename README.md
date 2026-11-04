@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.5 — Precision](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.5)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.6 — Precision II](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.6)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -44,6 +44,9 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Features
 
+- **Large 3D references:** a 50-million-triangle default and 3 GiB file cap, import progress/ETA and improved material handling. Available RAM/VRAM still determine practical model size.
+- **Shape creation:** five sphere methods, editable grouped generations, saved presets, Part size controls and whole-preview painting.
+- **Precision controls:** group-centred gizmos, independent transform resets, Ground/Origin placement and exact world-axis dimensions. C cycles cameras, X toggles snapping and V toggles Measure.
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
 - **Corvette and base utility finder:** Show utilities labels cockpits, docking equipment, teleporters, trade terminals and other functional parts with readable names, gold pointers and subtle outlines. Utilities stay visible over Hide all while enabled.
 - **Player references:** default race models with grayscale textures, optional holograms and idle playback/pause.
@@ -108,12 +111,25 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.5.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.6.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.6 — Precision II](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.6)
+
+- Improved 3D importer: 50 million triangle default, files up to 3 GiB, progress and ETA, better material/transparency handling and large-mesh stability.
+- More reliable imported-model bounds, selection and pivots, including close-up viewing of large models.
+- Revamped shape tools: grouped generations, editable previews, presets, Part size controls and whole-preview painting. Text and Emblem creators retain their existing workflow.
+- Five sphere methods: Spiral, Latitude rings, Even distribution, Geodesic and Meridian rings, with spacing controls and saved recipes.
+- Group-centred gizmos, independent position/rotation/scale resets, and Ground / Centre at origin placement that preserves orientation and scale.
+- One-click X/Y/Z measurements with W/X, L/Y and H/Z labels, Shift-straightened rulers and a compact icon menu.
+- C cycles camera modes, X toggles snapping and V toggles Measure. Ctrl+C / Ctrl+X / Ctrl+V keep Copy / Cut / Paste.
+- Clearer numeric reset and tab-renaming hints, slimmer variant controls and hold-to-Favorites catalog interaction.
+- Expandable update notes and a What's new popup shown once per installed version; reopen it from General.
+- Updated F1 instructions and interface translations across 17 languages.
 
 ### [v1.3.5 — Precision](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.5)
 
