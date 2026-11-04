@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.7 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.7)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.8 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.8)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -111,12 +111,16 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.7.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.8.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.8 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.8)
+
+- Measurement lines and endpoint markers are white again, with dark outlines for contrast. Applies to manual rulers and X/Y/Z extent measurements.
 
 ### [v1.3.7 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.7)
 
