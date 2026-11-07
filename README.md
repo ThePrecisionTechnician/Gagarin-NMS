@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.8 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.8)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.3.9 — Horizons](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.9)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -49,7 +49,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 - **Precision controls:** group-centred gizmos, independent transform resets, Ground/Origin placement and exact world-axis dimensions. C cycles cameras, X toggles snapping and V toggles Measure.
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
 - **Corvette and base utility finder:** Show utilities labels cockpits, docking equipment, teleporters, trade terminals and other functional parts with readable names, gold pointers and subtle outlines. Utilities stay visible over Hide all while enabled.
-- **Player references:** default race models with grayscale textures, optional holograms and idle playback/pause.
+- **Player references:** textured race models by default, with transform controls, optional holograms and idle playback/pause.
 - **Interaction zones:** toggle proximity-switch and tractor-beam activation boundaries.
 - **Import organization:** F2 renaming for prefab groups, 3D models and images, with hover highlights and session persistence.
 - **Parts catalog:** 1,885 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
@@ -70,7 +70,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.3.4.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.3.9.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -82,7 +82,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.4 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.9 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -111,12 +111,22 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.8.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.3.9.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.3.9 — Horizons](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.9)
+
+- New display grounds: hangar tiles, glossy black and white, brushed metal, matte charcoal, powder snow, windy grass and ocean water.
+- Dynamic sky with moving sun and moon, sun colours, moon glow, clouds and animation, warmer sunsets and grass haze.
+- Matching camera look speed, movement speed and Time of day controls; movement speed up to 10,000 m/s.
+- Customizable hotkeys in F1, colour vision assistance, startup-guide opt-out and clearer Settings guidance.
+- Faster large stationary selections, shorter grid draw range, and selection preserved through Undo/Redo.
+- Wiring quick menu with Electrical, Teleport and Bytebeat cable icons.
+- Hover-open File menu, outside-click dismissal for Parts, clearer tooltips and consistent scene fonts.
 
 ### [v1.3.8 — Precision II Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.8)
 
