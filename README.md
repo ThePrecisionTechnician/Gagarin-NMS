@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.3.9 — Horizons](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.9)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.4.0 — Horizons II](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.4.0)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -70,7 +70,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.3.9.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.4.0.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -82,7 +82,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.3.9 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.4.0 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -111,12 +111,27 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.3.9.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.4.0.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.4.0 — Horizons II](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.4.0)
+
+- Native-size GLB imports preserve meters and node transforms, with an optional target length.
+- Size menu uniformly scales selected parts, groups and models to an X, Y or Z measurement in meters.
+- Modern, Classic, Pirate and Space Anomaly reference environments, with aligned build origins and station types. Environment also cycles Ground and Background.
+- Player toolbar: click-to-position with cyan placement feedback, character choices, idle/sitting controls, pause and locking; improved selection alongside imports.
+- Consistent toolbar icons and menus, saved top-center/top-left/vertical-left placement and slide/fade transitions.
+- Cinema mode hides the interface and restricts interaction to the camera. F12 saves screenshots; Ctrl+F12 opens the console.
+- Organized workspace folders and folder shortcuts; drag-and-drop loading; shared project files preserve group names and structure while models/images remain external references.
+- Circular fading grids with Small/Medium/Large sizes, clearer axes and direction labels.
+- Live group scaling refresh, steadier lighting across sky toggles, paint-family switching and rotation-gizmo fixes.
+- Corrected invisible toolbar/menu input blocking that could prevent camera movement and model selection. Snap status moved to the lower right.
+- Performance: choose Uncapped or 60 FPS in File → General. Unfocused windows automatically run at 15 FPS.
+- Refined scene-list controls, quad-view highlights, tooltips and interface consistency.
 
 ### [v1.3.9 — Horizons](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.3.9)
 
