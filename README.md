@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.4.1 — Fossil Render Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.4.1)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.5.0 — Hull Tracing Beta](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.0)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -70,7 +70,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.4.1.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.5.0.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -82,7 +82,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.4.1 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.0 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -111,12 +111,23 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.4.1.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.0.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.5.0 — Hull Tracing Beta](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.0)
+
+- **Hull Tracing — BETA:** trace an outline on a model, snap to edges/vertices and fill flat or curved hull patches with building pieces. Improved boundary coverage and visible-face alignment. Rigid panels approximate curves; small seams can remain.
+- Import .nmsship files through Open or drag-and-drop: load the build assembly without ship technology or inventory.
+- Fixed model imports stalling during selection/collision preparation, and restored camera input after import dialogs.
+- Duplicated generated shapes remain editable; Ctrl+E edits the selected generated shape.
+- L locks the selection; Shift+L unlocks all. Scene lock and visibility actions apply across selected groups.
+- Improved creation gizmo movement, rotation fields, player placement orientation, tooltips and vertical-toolbar generation controls.
+- Increased grid reach and selection distance; fixed generated parts disappearing at a distance and toolbar overlap with update prompts.
+
 
 ### [v1.4.1 — Fossil Render Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.4.1)
 
