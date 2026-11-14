@@ -4,6 +4,23 @@ A free base editor for **No Man's Sky**. Build a base in the app, then load it i
 
 Download **[GAGARIN NMS 1.5.3 — Corvette Save Tools](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3)** from [Releases](../../releases).
 
+## Choose an edition
+
+| Edition | No Man's Sky installation | Download |
+|---|---|---|
+| [Standard 1.5.3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3) | Required for game assets | About 565 MB, one ZIP |
+| [Compact 1K Standalone 1.5.3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.3) | Not required | About 5.85 GB, three parts |
+
+Compact Standalone retains all 117,267 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
+
+For Compact Standalone, download **all three parts** into one folder:
+[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.3/GAGARIN_NMS_Compact1K_v1.5.3.zip.001),
+[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.3/GAGARIN_NMS_Compact1K_v1.5.3.zip.002),
+[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.3/GAGARIN_NMS_Compact1K_v1.5.3.zip.003).
+Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; it reads the other parts automatically. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
+
+Compact uses its own automatic update feed. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
+
 ## Screenshots
 
 Explore the workspace and creation tools. Click any screenshot to view it at full size.
@@ -70,17 +87,17 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.5.3.zip` from [Releases](../../releases).
-2. Extract the archive with 7-Zip or Windows File Explorer.
+1. For the Standard edition, download `GAGARIN_NMS_v1.5.3.zip` from [Releases](../../releases). For Compact Standalone, use the three-part instructions above.
+2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for the compact multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
 There is no installer and the app does not write to the Windows registry. To uninstall it, delete the extracted folder.
 
-**Requirements:** Windows 10 or 11 (64-bit), a DirectX 12 capable GPU, and about 1.2 GB of disk space for the archive plus extracted app, with additional space for imported-model caches and saved sessions.
+**Requirements:** Windows 10 or 11 (64-bit) and a DirectX 12 capable GPU. Standard needs an installed copy of No Man's Sky for game assets and about 1.2 GB for the download plus extracted app. Compact Standalone needs no game installation and about 12 GB for the download plus extracted app. Allow additional space for caches and sessions, and about 8 GB free for staging compact app updates.
 
 ### Automatic updates
 
-Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
+Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact Standalone uses its dedicated feed and cannot install Standard updates. Automatic checks are enabled by default; saved update preferences are respected.
 
 The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
@@ -449,4 +466,4 @@ If something goes wrong, report what you did, what you expected, and what happen
 
 ---
 
-GAGARIN NMS was created by **autoeme** and was passed on and is now maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the app displays assets already present in your copy of the game.
+GAGARIN NMS was created by **autoeme** and was passed on and is now maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the Standard edition reads assets already present in your copy of the game, while Compact Standalone includes its asset pack.
