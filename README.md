@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.5.2 — Corvette & Workspace Improvements](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.2)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.5.3 — Corvette Save Tools](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -60,7 +60,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 - **Quad View:** edit in fixed Top, Isometric, Front and Right views with shared selection and changes, middle-mouse panning, wheel zoom, and independent pane zoom and framing saved per tab.
 - **Compact workspace:** icon-and-label toolbar, translucent view picker, category-and-grid parts browser, and a full-height scene list beside the transform and paint controls.
 - **Painting:** in-game colours and finishes, with an eyedropper and highlights for the selected part’s saved scheme. Controls are disabled for parts that cannot be recoloured.
-- **Save editing:** read bases from a No Man's Sky save and write them back.
+- **Save editing:** read bases and corvettes from game saves, create fresh C-class starters, safely delete corvettes, and use attached parts tools for manual optimization, duplicate cleanup and reordering with backups.
 - **Scene options:** panoramic backgrounds that follow the camera, black, Off-white and White backgrounds, ground coverings, time of day, lighting, and image settings.
 - **Base tabs and session restore:** continue work after restarting the app; double-click or right-click tabs to rename bases or ships, with the name reflected in JSON export. Each tab remembers its camera view, and a gold dot marks unsaved changes.
 - **GLB model import:** retain separate material colours and base-colour textures across imported model sections.
@@ -70,7 +70,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.5.2.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.5.3.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -82,7 +82,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -111,12 +111,25 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.5.2.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.3.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.5.3 — Corvette Save Tools](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3)
+
+- Create a fresh C-class corvette with an eight-part starter build, empty cargo and basic flight technology.
+- Safe corvette deletion with backups, typed confirmation and active/edit-associated/last-ship protections.
+- Attached searchable parts panel with compact IDs, full names and sizes.
+- Manual optimization and multi-part top/up/down/bottom reordering; Paragon and base flags remain pinned first.
+- Manual exact duplicate cleanup ignores timestamps only and preserves differing saved properties.
+- Matching charcoal panels, full selected-tab highlights and a combined layout centered on Builder.
+- Guarded writes create backups and verify readback. Nothing runs automatically.
+- **Hull Tracing remains BETA.**
+
+
 
 ### [v1.5.2 — Corvette & Workspace Improvements](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.2)
 
