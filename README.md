@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.5.1 — Ship Import Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.1)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.5.2 — Corvette & Workspace Improvements](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.2)** from [Releases](../../releases).
 
 ## Screenshots
 
@@ -19,7 +19,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 | ![Selected weapon group with transform and paint controls](screens/transform-and-paint.jpg) | ![Utility labels identify functional equipment in a ship](screens/utility-finder.png) |
 | **Transforms and painting:** precise group controls, colours and material finishes. | **Utility finder:** locate functional equipment throughout a build. |
 | ![Text Creator preview of KUAT DRIVE YARDS using 181 native panels](screens/text-creator.png) | ![Emblem Creator with nine white emblem thumbnails and a Galactic Empire preview](screens/emblem-creator-interface.jpg) |
-| **Text Creator:** preview Meridian lettering built from native panels. | **Emblem Creator:** import SVG artwork or choose from nine built-in emblems. |
+| **Text Creator:** preview Meridian lettering built from native panels. | **Emblem Creator:** import SVG artwork or choose from collapsible Star Wars and NMS Factions emblem collections. |
 | ![Textured TIE Phantom model with transform and transparency controls](screens/textured-model-controls.jpg) | ![Save Manager showing corvette saves with account details hidden](screens/save-manager.png) |
 | **Model import:** textured reference models with transform and transparency controls. | **Save Manager:** browse and open game saves, then write builds back. Account details are hidden in this screenshot. |
 | ![Electrical and teleport cable networks visible through a corvette hull](screens/corvette-wiring-overlay.png) | ![Rebel Alliance and Sith Order emblems generated from native panels](screens/emblem-creator-rebel-alliance-sith-order.png) |
@@ -56,7 +56,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
 - **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
 - **Scene groups:** name, collapse, sort and show/hide groups; visibility controls also support highlighted parts.
-- **Text & Emblem Creator:** generate editable native-panel text or SVG artwork with Storage / Flat panels. Emblem Creator is adapted from [NMScribe by FuriousFurby](https://github.com/slipperystickers/nms-text-generator), with nine built-in emblems, custom SVG import, detail levels 1–10, and a 2,000-part default budget (3,000 maximum). Complex artwork may need simpler geometry or a higher limit.
+- **Text & Emblem Creator:** generate editable native-panel text or SVG artwork with Storage / Flat panels. Emblem Creator is adapted from [NMScribe by FuriousFurby](https://github.com/slipperystickers/nms-text-generator), with Star Wars and NMS Factions collections, custom SVG import, detail levels 1–10, and a 2,000-part default budget (3,000 maximum). Complex artwork may need simpler geometry or a higher limit.
 - **Quad View:** edit in fixed Top, Isometric, Front and Right views with shared selection and changes, middle-mouse panning, wheel zoom, and independent pane zoom and framing saved per tab.
 - **Compact workspace:** icon-and-label toolbar, translucent view picker, category-and-grid parts browser, and a full-height scene list beside the transform and paint controls.
 - **Painting:** in-game colours and finishes, with an eyedropper and highlights for the selected part’s saved scheme. Controls are disabled for parts that cannot be recoloured.
@@ -70,7 +70,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. Download `GAGARIN_NMS_v1.5.1.zip` from [Releases](../../releases).
+1. Download `GAGARIN_NMS_v1.5.2.zip` from [Releases](../../releases).
 2. Extract the archive with 7-Zip or Windows File Explorer.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -82,7 +82,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Fork builds **1.1.1 and later** check this repository for future releases. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.1 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -111,12 +111,27 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.5.1.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.2.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.5.2 — Corvette & Workspace Improvements](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.2)
+
+- Save Manager ship-slot moves and swaps keep linked corvette builds, inventory, technology and paint together. Corvettes are listed by ship slot.
+- Compact Scene rows, blue corvette backgrounds and clearer purple duplicate markers. Duplicate matching ignores timestamps; Newest keeps chronological priority.
+- Cached prefab thumbnails replace question-mark tiles without continuous rendering.
+- Collapsible **Emblem Collection - Star Wars** and **Emblem Collection - NMS Factions**, including The Indominus Legion and No Man’s Legacy with their supplied panel colours.
+- Generation tools support Part size down to **0.001**.
+- Softer, reduced reflections in orthographic views preserve paint colour and dark metal detail; perspective keeps full reflections.
+- **F10 cinema mode** hides Scene/Transform panels and expands quad view across the window, restoring the previous layout on exit.
+- Fixed distant corvette pieces disappearing, blue-tinted direction labels, imported references counting as parts, and toolbar overlap with the expanded Parts browser.
+- Refined charcoal Ship Slots styling and removed its Unreal icon/system menu.
+- Ground surfaces are **30% larger** with circular fading edges; removed the Hexagon option.
+- **Hull Tracing remains BETA.**
+
 
 ### [v1.5.1 — Ship Import Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.1)
 
