@@ -10,6 +10,9 @@ Download **[GAGARIN NMS 1.5.4 — Corvette Interiors](https://github.com/ThePrec
 |---|---|---|
 | [Standard 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4) | Required for game assets | About 565 MB, one ZIP |
 | [Compact 1K Standalone 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.4) | Not required | About 5.85 GB, three parts |
+| [Full Resolution Standalone 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts |
+
+**No Man's Sky Installation Not Required** for either standalone edition.
 
 Compact Standalone retains all 117,267 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
 
@@ -20,6 +23,23 @@ For Compact Standalone, download **all three parts** into one folder:
 Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; it reads the other parts automatically. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
 
 Compact uses its own automatic update feed. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
+
+### Full Resolution Standalone
+
+Includes all **117,267 assets at their original texture resolution**. Download **all eight parts** into one folder:
+[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.001),
+[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.002),
+[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.003),
+[Part 4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.004),
+[Part 5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.005),
+[Part 6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.006),
+[Part 7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.007),
+[Part 8](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/GAGARIN_NMS_FullResolution_v1.5.4.zip.008).
+Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; every part is required. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
+
+[Installation instructions](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/READ_ME_FIRST.txt) · [SHA-256 checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/SHA256SUMS.txt)
+
+Full Resolution has its own automatic update feed and edition checks. Compatible routine app updates are about **565 MB** and retain and verify the original-resolution pack. Leave free space for a temporary copy of the pack; staging and verification can take several minutes. Different assets or an incompatible reader require a matching complete download. The FullResolutionUpdate ZIP is app-only and cannot be used for a first installation. Older full-resolution builds with updates disabled need this client installed manually once.
 
 ## Screenshots
 
@@ -88,17 +108,17 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download `GAGARIN_NMS_v1.5.4.zip` from [Releases](../../releases). For Compact Standalone, use the three-part instructions above.
-2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for the compact multipart archive.
+1. For the Standard edition, download `GAGARIN_NMS_v1.5.4.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
+2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
 There is no installer and the app does not write to the Windows registry. To uninstall it, delete the extracted folder.
 
-**Requirements:** Windows 10 or 11 (64-bit) and a DirectX 12 capable GPU. Standard needs an installed copy of No Man's Sky for game assets and about 1.2 GB for the download plus extracted app. Compact Standalone needs no game installation and about 12 GB for the download plus extracted app. Allow additional space for caches and sessions, and about 8 GB free for staging compact app updates.
+**Requirements:** Windows 10 or 11 (64-bit) and a DirectX 12 capable GPU. Standard needs an installed copy of No Man's Sky for game assets and about 1.2 GB for the download plus extracted app. Neither standalone edition requires a game installation. Allow about 12 GB for the Compact download plus extracted app, or about 31 GB for Full Resolution. Allow additional space for caches and sessions, about 8 GB free for staging compact app updates, and space for a temporary copy of the full asset pack during Full Resolution updates.
 
 ### Automatic updates
 
-Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact Standalone uses its dedicated feed and cannot install Standard updates. Automatic checks are enabled by default; saved update preferences are respected.
+Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact 1K and Full Resolution each use a dedicated feed and reject updates from other editions. Automatic checks are enabled by default; saved update preferences are respected.
 
 The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.4 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
@@ -150,6 +170,7 @@ The resulting hash must match the value in the release notes.
 - Muted slate-green rows for non-Corvette utilities; Corvette parts remain blue.
 - Fixed detached light strips and Legion med-bay flickering in Builder previews while preserving native game part IDs.
 - Both Standard and Compact 1K updated together. **Hull Tracing remains BETA.**
+- [Full Resolution Standalone 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) is also available: all 117,267 original-resolution assets, no game installation required, eight download parts and its own automatic app-update feed.
 
 
 ### [v1.5.3 — Corvette Save Tools](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3)
@@ -483,4 +504,4 @@ If something goes wrong, report what you did, what you expected, and what happen
 
 ---
 
-GAGARIN NMS was created by **autoeme** and was passed on and is now maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the Standard edition reads assets already present in your copy of the game, while Compact Standalone includes its asset pack.
+GAGARIN NMS was created by **autoeme** and was passed on and is now maintained by **ThePrecisionTechnician**. Part models, icons, and names belong to Hello Games; the Standard edition reads assets already present in your copy of the game, while Compact 1K and Full Resolution Standalone include their asset packs.
