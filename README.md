@@ -2,21 +2,21 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.5.3 — Corvette Save Tools](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.5.4 — Corvette Interiors](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4)** from [Releases](../../releases).
 
 ## Choose an edition
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
-| [Standard 1.5.3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3) | Required for game assets | About 565 MB, one ZIP |
-| [Compact 1K Standalone 1.5.3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.3) | Not required | About 5.85 GB, three parts |
+| [Standard 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4) | Required for game assets | About 565 MB, one ZIP |
+| [Compact 1K Standalone 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.4) | Not required | About 5.85 GB, three parts |
 
 Compact Standalone retains all 117,267 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
 
 For Compact Standalone, download **all three parts** into one folder:
-[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.3/GAGARIN_NMS_Compact1K_v1.5.3.zip.001),
-[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.3/GAGARIN_NMS_Compact1K_v1.5.3.zip.002),
-[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.3/GAGARIN_NMS_Compact1K_v1.5.3.zip.003).
+[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.4/GAGARIN_NMS_Compact1K_v1.5.4.zip.001),
+[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.4/GAGARIN_NMS_Compact1K_v1.5.4.zip.002),
+[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.4/GAGARIN_NMS_Compact1K_v1.5.4.zip.003).
 Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; it reads the other parts automatically. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
 
 Compact uses its own automatic update feed. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
@@ -70,8 +70,9 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 - **Interaction zones:** toggle proximity-switch and tractor-beam activation boundaries.
 - **Import organization:** F2 renaming for prefab groups, 3D models and images, with hover highlights and session persistence.
 - **Parts catalog:** 1,885 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
+- **Corvette interiors:** styled module variants, cached thumbnails and a view-only ceiling cutaway for editing inside habs and walkways. Native tiny-hab assemblies retain their appearance and move together.
 - **Building tools:** snapping, move/rotate/scale controls, free placement, mirroring, curved placement, and reusable multi-part prefabs.
-- **Single-part placement:** pick a normal part and click to place it once; placement ends and selection clears.
+- **Single-part placement:** pick a part or variant and click to place it once; the new part or assembly remains selected for immediate movement.
 - **Scene groups:** name, collapse, sort and show/hide groups; visibility controls also support highlighted parts.
 - **Text & Emblem Creator:** generate editable native-panel text or SVG artwork with Storage / Flat panels. Emblem Creator is adapted from [NMScribe by FuriousFurby](https://github.com/slipperystickers/nms-text-generator), with Star Wars and NMS Factions collections, custom SVG import, detail levels 1–10, and a 2,000-part default budget (3,000 maximum). Complex artwork may need simpler geometry or a higher limit.
 - **Quad View:** edit in fixed Top, Isometric, Front and Right views with shared selection and changes, middle-mouse panning, wheel zoom, and independent pane zoom and framing saved per tab.
@@ -87,7 +88,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download `GAGARIN_NMS_v1.5.3.zip` from [Releases](../../releases). For Compact Standalone, use the three-part instructions above.
+1. For the Standard edition, download `GAGARIN_NMS_v1.5.4.zip` from [Releases](../../releases). For Compact Standalone, use the three-part instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for the compact multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -99,7 +100,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact Standalone uses its dedicated feed and cannot install Standard updates. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.3 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.4 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -128,12 +129,28 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.5.3.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.4.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.5.4 — Corvette Interiors](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4)
+
+- Thunderbird, Ambassador and Legion interior variants in module submenus; cargo families retain their 0–9 options.
+- Styled modules and tiny hab anchors follow the cursor, place together and stay selected for immediate movement. Escape cancels both.
+- View-only hab/walkway ceiling cutaway for editing interiors from above.
+- Snapped internal doors, utility modules and cargo racks follow their habs/walkways; duplicated habs preserve the original's attachments.
+- Cached front-facing thumbnails, grouped hab/walkway variants and cleaner Corvette icon backgrounds.
+- Separate Snap and Grid Snap controls; grid snapping starts off and Ctrl temporarily enables it with button feedback.
+- New grid-snapped placements start on visible 100 cm points; movement retains the configured spacing, 50 cm by default.
+- New placements and duplicates remain selected; rotation rings are 50% thinner with unchanged picking tolerance.
+- Expanded menus block build-space mouse input at scroll limits; File collapses Parts and active buttons retain rounded edges.
+- Muted slate-green rows for non-Corvette utilities; Corvette parts remain blue.
+- Fixed detached light strips and Legion med-bay flickering in Builder previews while preserving native game part IDs.
+- Both Standard and Compact 1K updated together. **Hull Tracing remains BETA.**
+
 
 ### [v1.5.3 — Corvette Save Tools](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.3)
 
