@@ -4,15 +4,15 @@ A free base editor for **No Man's Sky**. Build a base in the app, then load it i
 
 Download **[GAGARIN NMS 1.5.4 — Corvette Interiors](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4)** from [Releases](../../releases).
 
-## GAGARIN Launcher 1.0.1
+## GAGARIN Launcher 1.0.2
 
 **GAGARIN a KDY Production**
 
-**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.1/GAGARIN_Launcher_v1.0.1.exe)** · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.1)
+**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.2/GAGARIN_Launcher_v1.0.2.exe)** · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.2)
 
 Choose any combination of **Standard Builder**, **Compact 1K Standalone**, **Full Resolution Standalone**, and **[Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov)**. The launcher downloads, verifies and extracts numbered archive parts automatically, with separate Builder folders and pause/resume, update, repair and launch controls. Every product row links to its repository for more details.
 
-The launcher has a dark interface and the Imperial icon from the existing Gagarin artwork. It automatically checks for and downloads its own updates; choose **Restart to update** when ready. The update helper verifies the replacement and restores the previous EXE if startup fails. Builder editions and Titov retain their separate updaters.
+The launcher has a dark interface and the Imperial icon from the existing Gagarin artwork. Its top-right **Support the author**, **Discord / Contact me**, and **Kuat Drive Yards Discord** buttons match Builder’s styling and use the same destinations. It automatically checks for and downloads its own updates; choose **Restart to update** when ready. The update helper verifies the replacement and restores the previous EXE if startup fails. Builder editions and Titov retain their separate updaters.
 
 Windows 10/11 x64 with .NET Framework 4.8. Keep the launcher EXE in a writable folder. It is a small download; product/asset downloads are separate. Standard and Titov require the game; Titov also requires a reviewed compatible game build. **No Man's Sky Installation Not Required** for either standalone edition. Press **F1** for instructions.
 
