@@ -4,13 +4,13 @@ A free base editor for **No Man's Sky**. Build a base in the app, then load it i
 
 Download **[GAGARIN NMS 1.5.4 — Corvette Interiors](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4)** from [Releases](../../releases).
 
-## GAGARIN Launcher 1.0.2
+## GAGARIN Launcher 1.0.3
 
 **GAGARIN a KDY Production**
 
-**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.2/GAGARIN_Launcher_v1.0.2.exe)** · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.2)
+**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.3/GAGARIN_Launcher_v1.0.3.exe)** · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.3)
 
-Choose any combination of **Standard Builder**, **Compact 1K Standalone**, **Full Resolution Standalone**, and **[Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov)**. The launcher downloads, verifies and extracts numbered archive parts automatically, with separate Builder folders and pause/resume, update, repair and launch controls. Every product row links to its repository for more details.
+Choose any combination of **Standard Builder**, **Compact 1K Standalone**, **Full Resolution Standalone**, and **[Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov)**. The launcher downloads, verifies and extracts numbered archive parts automatically, with separate Builder folders and pause/resume, update, repair and launch controls. Every product row links to its repository for more details. Nothing is checked by default. Catalog refresh and language changes preserve your current choices, including an empty selection. The dark **Language** menu offers all **17 Gagarin NMS languages**, remembers your choice and updates controls, ordinary status messages and F1 / Instructions immediately.
 
 The launcher has a dark interface and the Imperial icon from the existing Gagarin artwork. Its top-right **Support the author**, **Discord / Contact me**, and **Kuat Drive Yards Discord** buttons match Builder’s styling and use the same destinations. It automatically checks for and downloads its own updates; choose **Restart to update** when ready. The update helper verifies the replacement and restores the previous EXE if startup fails. Builder editions and Titov retain their separate updaters.
 
