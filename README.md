@@ -2,13 +2,13 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.5.4 — Corvette Interiors](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.5.6 — Shared Workspace](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.6)** from [Releases](../../releases).
 
-## GAGARIN Launcher 1.0.3
+## GAGARIN Launcher 1.0.4
 
 **GAGARIN a KDY Production**
 
-**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.3/GAGARIN_Launcher_v1.0.3.exe)** · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.3)
+**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.4/GAGARIN_Launcher_v1.0.4.exe)** · [Setup ZIP](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.4/GAGARIN_Launcher_Setup_v1.0.4.zip) · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.4)
 
 Choose any combination of **Standard Builder**, **Compact 1K Standalone**, **Full Resolution Standalone**, and **[Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov)**. The launcher downloads, verifies and extracts numbered archive parts automatically, with separate Builder folders and pause/resume, update, repair and launch controls. Every product row links to its repository for more details. Nothing is checked by default. Catalog refresh and language changes preserve your current choices, including an empty selection. The dark **Language** menu offers all **17 Gagarin NMS languages**, remembers your choice and updates controls, ordinary status messages and F1 / Instructions immediately.
 
@@ -16,22 +16,26 @@ The launcher has a dark interface and the Imperial icon from the existing Gagari
 
 Windows 10/11 x64 with .NET Framework 4.8. Keep the launcher EXE in a writable folder. It is a small download; product/asset downloads are separate. Standard and Titov require the game; Titov also requires a reviewed compatible game build. **No Man's Sky Installation Not Required** for either standalone edition. Press **F1** for instructions.
 
+**Default folders:** launcher `C:\GAGARIN\Launcher`; Builder editions `C:\GAGARIN\Builder-Standard`, `Builder-Compact1K` and `Builder-FullResolution`. The Setup ZIP creates the launcher shortcut and applies the existing gold Imperial icon to `C:\GAGARIN`. Existing custom locations are preserved.
+
+**Installed / Latest version / Status** show updates for each program. Check the programs you want and use **Update**. **Organize folders**, beside Refresh, moves managed Builder installations into the default root after confirmation; it is unavailable for Titov-only selections. **Uninstall selected** preserves shared data and personal files. **Open install folder**, between Open downloads and Language, opens the highlighted edition folder, or the game's **GAMEDATA** folder for Titov. Titov stays in the game directory.
+
 ## Choose an edition
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
-| [Standard 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4) | Required for game assets | About 565 MB, one ZIP |
-| [Compact 1K Standalone 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.4) | Not required | About 5.85 GB, three parts |
-| [Full Resolution Standalone 1.5.4](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts |
+| [Standard 1.5.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.6) | Required for game assets | About 565 MB, one ZIP |
+| [Compact 1K Standalone 1.5.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.6) | Not required | About 5.85 GB, three parts |
+| [Full Resolution Standalone](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts; automatic app update to 1.5.6 |
 
 **No Man's Sky Installation Not Required** for either standalone edition.
 
 Compact Standalone retains all 117,267 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
 
 For Compact Standalone, download **all three parts** into one folder:
-[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.4/GAGARIN_NMS_Compact1K_v1.5.4.zip.001),
-[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.4/GAGARIN_NMS_Compact1K_v1.5.4.zip.002),
-[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.4/GAGARIN_NMS_Compact1K_v1.5.4.zip.003).
+[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.6/GAGARIN_NMS_Compact1K_v1.5.6.zip.001),
+[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.6/GAGARIN_NMS_Compact1K_v1.5.6.zip.002),
+[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.6/GAGARIN_NMS_Compact1K_v1.5.6.zip.003).
 Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; it reads the other parts automatically. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
 
 Compact uses its own automatic update feed. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
@@ -52,6 +56,16 @@ Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; every part is required. Run
 [Installation instructions](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/READ_ME_FIRST.txt) · [SHA-256 checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/fullres-v1.5.4/SHA256SUMS.txt)
 
 Full Resolution has its own automatic update feed and edition checks. Compatible routine app updates are about **565 MB** and retain and verify the original-resolution pack. Leave free space for a temporary copy of the pack; staging and verification can take several minutes. Different assets or an incompatible reader require a matching complete download. The FullResolutionUpdate ZIP is app-only and cannot be used for a first installation. Older full-resolution builds with updates disabled need this client installed manually once.
+
+### Shared workspace and settings
+
+Builder 1.5.6 shares workspace, favorites and app preferences across all three editions in **`C:\GAGARIN\Shared`**. Workspace subfolders include Bases, Prefabs, Screenshots, Model Imports, Photo Imports and Icon Imports.
+
+**Update all installed Builder editions before the first updated launch or folder migration.** Old workspace files move only after verification and a saved relocation index. Existing shared files are preserved; different content is kept under Migration Conflicts. Old model/image references continue to resolve in updated Builders. Original preference files remain; custom external folders keep their locations. Restart another running edition to load changed preferences.
+
+Updater settings, engine configuration and session/recovery data retain their existing profile storage. Shared preferences use the last completed save.
+
+The [latest Full Resolution app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.6) requires an existing Full Resolution installation. **First-time Full Resolution downloads still use the complete eight-part 1.5.4 base above**, then update automatically.
 
 ## Screenshots
 
@@ -120,11 +134,11 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download `GAGARIN_NMS_v1.5.4.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
+1. For the Standard edition, download `GAGARIN_NMS_v1.5.6.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
-There is no installer and the app does not write to the Windows registry. To uninstall it, delete the extracted folder.
+The launcher Setup ZIP installs the launcher; Builder ZIPs remain portable. Use the launcher's **Uninstall selected** for managed installations. Shared workspace, preferences and personal files are retained. Removing a manually extracted app folder does not remove shared data.
 
 **Requirements:** Windows 10 or 11 (64-bit) and a DirectX 12 capable GPU. Standard needs an installed copy of No Man's Sky for game assets and about 1.2 GB for the download plus extracted app. Neither standalone edition requires a game installation. Allow about 12 GB for the Compact download plus extracted app, or about 31 GB for Full Resolution. Allow additional space for caches and sessions, about 8 GB free for staging compact app updates, and space for a temporary copy of the full asset pack during Full Resolution updates.
 
@@ -132,7 +146,7 @@ There is no installer and the app does not write to the Windows registry. To uni
 
 Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact 1K and Full Resolution each use a dedicated feed and reject updates from other editions. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.4 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.6 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -150,10 +164,16 @@ Game saves are stored in:
 %APPDATA%\\HelloGames\\NMS
 ```
 
-The app's settings and tabs are stored in:
+Shared workspace, favorites and app preferences are stored in:
 
 ```
-%LOCALAPPDATA%\\NMS_BuilderApp\\Saved
+C:\GAGARIN\Shared
+```
+
+Engine configuration, updater settings and session/recovery files retain their profile storage:
+
+```
+%LOCALAPPDATA%\NMS_BuilderApp\Saved
 ```
 
 ## Verify a download
@@ -161,12 +181,21 @@ The app's settings and tabs are stored in:
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.5.4.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.6.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.5.6 — Shared Workspace](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.6)
+
+- Shared workspace, favorites and app preferences for Standard, Compact 1K and Full Resolution.
+- Verified legacy workspace moves with conflict preservation and old model/image reference resolution.
+- Separate updater/session state, preserved custom external folders and original preference files.
+- Companion Launcher 1.0.4 adds C:/GAGARIN defaults, managed folder organization, safe uninstall, version status and installation-folder access.
+- Compatible standalone app updates retain every existing asset. Update all Builder editions before migrating shared workspaces.
+- **Hull Tracing remains BETA.**
 
 ### [v1.5.4 — Corvette Interiors](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.4)
 
