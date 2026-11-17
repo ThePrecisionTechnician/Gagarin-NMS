@@ -79,6 +79,10 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 **Main workspace:** build and inspect ships with the scene list, transform controls and paint palette close at hand.
 
+![Autophage player reference idling beside a ship in GAGARIN NMS Builder](screens/live-player-idle-30fps.gif)
+
+**Live player reference:** Autophage idle animation in GAGARIN NMS Builder, captured at 30 FPS. Use it to check character scale and placement alongside your builds. Textured race models include idle playback and pause controls; player references are guides and are not included in base exports.
+
 | | |
 |---|---|
 | ![Quad View showing Top, Isometric, Front and Right views](screens/quad-view.png) | ![Parts browser with categories and part thumbnails](screens/parts-browser.jpg) |
