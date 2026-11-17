@@ -192,6 +192,12 @@ The resulting hash must match the value in the release notes.
 
 ## Changelog
 
+### [Launcher 1.0.6 — Workspace Organization](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.6)
+
+- Organize folders migrates legacy workspace files and missing preferences into Shared, even when installations are already organized.
+- Verified copies, preserved conflicts and external links, and safe retry after interruptions.
+- Updated confirmation and F1 instructions in all 17 languages; Titov stays in the game folder.
+
 ### [v1.5.7 — Workspace Folders](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.7)
 
 - Moved **Prefabs Folder…** into **FOLDERS**, replacing **Open prefabs folder…** and removing the duplicate under GROUPS & PREFABS.
