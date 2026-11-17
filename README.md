@@ -2,13 +2,13 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.5.7 — Workspace Folders](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.7)** from [Releases](../../releases).
+**[Download the latest GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe)** to choose, download and install Builder editions and Gagarin-Titov from one place. The download link stays the same when the launcher updates.
 
 ## GAGARIN Launcher 1.0.5
 
 **GAGARIN a KDY Production**
 
-**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.5/GAGARIN_Launcher_v1.0.5.exe)** · [Setup ZIP](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.5/GAGARIN_Launcher_Setup_v1.0.5.zip) · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.5)
+**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe)** · [Setup ZIP](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.5/GAGARIN_Launcher_Setup_v1.0.5.zip) · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.5)
 
 Choose any combination of **Standard Builder**, **Compact 1K Standalone**, **Full Resolution Standalone**, and **[Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov)**. The launcher downloads, verifies and extracts numbered archive parts automatically, with separate Builder folders and pause/resume, update, repair and launch controls. Every product row links to its repository for more details. Nothing is checked by default. Catalog refresh and language changes preserve your current choices, including an empty selection. The dark **Language** menu offers all **17 Gagarin NMS languages**, remembers your choice and updates controls, ordinary status messages and F1 / Instructions immediately.
 
@@ -23,6 +23,8 @@ Windows 10/11 x64 with .NET Framework 4.8. Keep the launcher EXE in a writable f
 Launcher 1.0.5 fixes the white empty table area during actions and the blank header edge after resizing. Product selections remain locked while an action runs.
 
 ## Choose an edition
+
+Use the **[GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe)** for automatic download, verification, extraction and installation. The edition links and numbered archives below are optional manual downloads.
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
