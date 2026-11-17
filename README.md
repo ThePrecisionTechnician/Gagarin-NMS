@@ -4,11 +4,11 @@ A free base editor for **No Man's Sky**. Build a base in the app, then load it i
 
 **[Download the latest GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe)** to choose, download and install Builder editions and Gagarin-Titov from one place. The download link stays the same when the launcher updates.
 
-## GAGARIN Launcher 1.0.5
+## GAGARIN Launcher 1.0.6
 
 **GAGARIN a KDY Production**
 
-**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe)** · [Setup ZIP](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.5/GAGARIN_Launcher_Setup_v1.0.5.zip) · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.5)
+**[Download the launcher EXE](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe)** · [Setup ZIP](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-v1.0.6/GAGARIN_Launcher_Setup_v1.0.6.zip) · [Release notes and checksums](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/launcher-v1.0.6)
 
 Choose any combination of **Standard Builder**, **Compact 1K Standalone**, **Full Resolution Standalone**, and **[Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov)**. The launcher downloads, verifies and extracts numbered archive parts automatically, with separate Builder folders and pause/resume, update, repair and launch controls. Every product row links to its repository for more details. Nothing is checked by default. Catalog refresh and language changes preserve your current choices, including an empty selection. The dark **Language** menu offers all **17 Gagarin NMS languages**, remembers your choice and updates controls, ordinary status messages and F1 / Instructions immediately.
 
@@ -20,7 +20,7 @@ Windows 10/11 x64 with .NET Framework 4.8. Keep the launcher EXE in a writable f
 
 **Installed / Latest version / Status** show updates for each program. Check the programs you want and use **Update**. **Organize folders**, beside Refresh, moves managed Builder installations into the default root after confirmation; it is unavailable for Titov-only selections. **Uninstall selected** preserves shared data and personal files. **Open install folder**, between Open downloads and Language, opens the highlighted edition folder, or the game's **GAMEDATA** folder for Titov. Titov stays in the game directory.
 
-Launcher 1.0.5 fixes the white empty table area during actions and the blank header edge after resizing. Product selections remain locked while an action runs.
+Launcher 1.0.6 extends **Organize folders** to move old workspace files into **`C:\GAGARIN\Shared\Workspace`**, even when Builder installations are already organized. Missing preferences are copied; existing shared settings and conflicting files are preserved. Copies are verified before old workspace copies are removed, and interrupted organization can be retried. External linked model folders stay in place without changing their targets. Close all Builder editions and update them to 1.5.6 or newer first. F1 / Instructions explains the action in all 17 languages.
 
 ## Choose an edition
 
