@@ -103,11 +103,31 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ![Space-station rendering with Kitami Junction and an Executor build](screens/space-station-rendering.png)
 
-**Space-station rendering:** view station geometry alongside your build to check scale and placement.
+**Space-station references:** choose Modern, Classic or Pirate stations, or the Space Anomaly, to view reference geometry alongside your build and check scale and placement.
 
 ![Space-station base interior with custom lettering and an emblem](screens/space-station-interior.png)
 
 **Space-station interiors:** inspect your base inside the rendered station, with interior geometry, materials and lighting visible alongside your custom build.
+
+![Corvette hab and walkway interior styles arranged in rows with ceilings cut away](screens/corvette-interior-style-cutaways.png)
+
+**Corvette interior styles and cutaways:** compare furnished hab and walkway variants side by side. The view-only ceiling cutaway exposes the room layouts, decorations and connecting passages for inspection.
+
+![Ambassador, Thunderbird and Titan habs with a Vantage cockpit and internal-door labels](screens/corvette-hab-cockpit-part-labels.png)
+
+**Part-name labels:** identify Ambassador-, Thunderbird- and Titan-class habs, a Vantage-class cockpit and their internal doors directly in the viewport. Gold labels and pointers show which component each name belongs to.
+
+![Save Manager Corvettes tab listing minimal corvettes and the selected eight-part build](screens/save-manager-minimal-corvettes.png)
+
+**Save Manager and minimal corvettes:** browse corvettes in a game save, create a minimal corvette and inspect the selected build's part list. This view shows an eight-part starter with zero duplicates, plus controls for opening builds, saving, optimization and part ordering.
+
+![Autophage player reference inside a rendered station hangar at sunset](screens/station-interior-player-reference.png)
+
+**Station interiors and player scale:** an Autophage player reference inside a rendered station hangar, with sunset lighting and interior geometry visible. Use station and character references together to assess the surrounding space and the scale of your build.
+
+![Ship build with width, length and height extent rulers and dimensions in metres](screens/ship-axis-extent-measurements.png)
+
+**Three-axis measurements:** inspect the build's overall dimensions with W/X, L/Y and H/Z extent rulers. The example measures 45.00 m wide, 24.99 m long and 5.85 m high, with endpoint markers showing the measured bounds.
 
 ![Custom base and ship thumbnails with an enlarged Death Star preview](screens/custom-base-ship-thumbnails.png)
 
@@ -121,6 +141,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 - **Electrical network workspace:** P exposes wiring and connection nodes through the build; connected cables follow moving parts, either endpoint can be edited, and Connected parts only isolates the equipment in a circuit.
 - **Corvette and base utility finder:** Show utilities labels cockpits, docking equipment, teleporters, trade terminals and other functional parts with readable names, gold pointers and subtle outlines. Utilities stay visible over Hide all while enabled.
 - **Player references:** textured race models by default, with transform controls, optional holograms and idle playback/pause.
+- **Station references:** choose Modern, Classic or Pirate stations, or the Space Anomaly, as reference environments for checking build scale and placement.
 - **Interaction zones:** toggle proximity-switch and tractor-beam activation boundaries.
 - **Import organization:** F2 renaming for prefab groups, 3D models and images, with hover highlights and session persistence.
 - **Parts catalog:** 1,885 in-game parts with their models, icons, and names in 17 languages, plus search, groups, and favourites.
