@@ -2,7 +2,7 @@
 
 A free base editor for **No Man's Sky**. Build a base in the app, then load it in the game.
 
-Download **[GAGARIN NMS 1.5.6 — Shared Workspace](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.6)** from [Releases](../../releases).
+Download **[GAGARIN NMS 1.5.7 — Workspace Folders](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.7)** from [Releases](../../releases).
 
 ## GAGARIN Launcher 1.0.5
 
@@ -26,18 +26,18 @@ Launcher 1.0.5 fixes the white empty table area during actions and the blank hea
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
-| [Standard 1.5.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.6) | Required for game assets | About 565 MB, one ZIP |
-| [Compact 1K Standalone 1.5.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.6) | Not required | About 5.85 GB, three parts |
-| [Full Resolution Standalone](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts; automatic app update to 1.5.6 |
+| [Standard 1.5.7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.7) | Required for game assets | About 565 MB, one ZIP |
+| [Compact 1K Standalone 1.5.7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.7) | Not required | About 5.85 GB, three parts |
+| [Full Resolution Standalone](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts; automatic app update to 1.5.7 |
 
 **No Man's Sky Installation Not Required** for either standalone edition.
 
 Compact Standalone retains all 117,267 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
 
 For Compact Standalone, download **all three parts** into one folder:
-[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.6/GAGARIN_NMS_Compact1K_v1.5.6.zip.001),
-[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.6/GAGARIN_NMS_Compact1K_v1.5.6.zip.002),
-[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.6/GAGARIN_NMS_Compact1K_v1.5.6.zip.003).
+[Part 1](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.7/GAGARIN_NMS_Compact1K_v1.5.7.zip.001),
+[Part 2](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.7/GAGARIN_NMS_Compact1K_v1.5.7.zip.002),
+[Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.7/GAGARIN_NMS_Compact1K_v1.5.7.zip.003).
 Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; it reads the other parts automatically. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
 
 Compact uses its own automatic update feed. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
@@ -61,13 +61,13 @@ Full Resolution has its own automatic update feed and edition checks. Compatible
 
 ### Shared workspace and settings
 
-Builder 1.5.6 shares workspace, favorites and app preferences across all three editions in **`C:\GAGARIN\Shared`**. Workspace subfolders include Bases, Prefabs, Screenshots, Model Imports, Photo Imports and Icon Imports.
+Builder 1.5.7 shares workspace, favorites and app preferences across all three editions in **`C:\GAGARIN\Shared`**. All six workspace folders have fixed locations under **`C:\GAGARIN\Shared\Workspace`**: Bases, Prefabs, Screenshots, Model Imports, Photo Imports and Icon Imports. Their menu entries open these folders directly; workspace locations cannot be reassigned. **Prefabs Folder…** is now under **FOLDERS**, and the prefab library and Save Selection as Prefab use that shared Prefabs folder.
 
-**Update all installed Builder editions before the first updated launch or folder migration.** Old workspace files move only after verification and a saved relocation index. Existing shared files are preserved; different content is kept under Migration Conflicts. Old model/image references continue to resolve in updated Builders. Original preference files remain; custom external folders keep their locations. Restart another running edition to load changed preferences.
+**Update all installed Builder editions before the first updated launch or folder migration.** Old workspace files move only after verification and a saved relocation index. Existing shared files are preserved; different content is kept under Migration Conflicts. Old model/image references continue to resolve in updated Builders. Original preference files remain. Old custom prefab-folder settings are ignored; existing external files are preserved. Restart another running edition to load changed preferences.
 
 Updater settings, engine configuration and session/recovery data retain their existing profile storage. Shared preferences use the last completed save.
 
-The [latest Full Resolution app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.6) requires an existing Full Resolution installation. **First-time Full Resolution downloads still use the complete eight-part 1.5.4 base above**, then update automatically.
+The [latest Full Resolution app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.7) requires an existing Full Resolution installation. **First-time Full Resolution downloads still use the complete eight-part 1.5.4 base above**, then update automatically.
 
 ## Screenshots
 
@@ -136,7 +136,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download `GAGARIN_NMS_v1.5.6.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
+1. For the Standard edition, download `GAGARIN_NMS_v1.5.7.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -148,7 +148,7 @@ The launcher Setup ZIP installs the launcher; Builder ZIPs remain portable. Use 
 
 Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact 1K and Full Resolution each use a dedicated feed and reject updates from other editions. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.6 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.7 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -183,12 +183,19 @@ Engine configuration, updater settings and session/recovery files retain their p
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.5.6.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.7.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.5.7 — Workspace Folders](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.7)
+
+- Moved **Prefabs Folder…** into **FOLDERS**, replacing **Open prefabs folder…** and removing the duplicate under GROUPS & PREFABS.
+- All six workspace folders open fixed shared directories under `C:\GAGARIN\Shared\Workspace`, with no directory assignment dialog.
+- Prefab browsing and saving use the shared Prefabs folder. Old custom-path settings are ignored; external files are preserved.
+- Updated folder instructions in all 17 languages. Standard, Compact 1K and Full Resolution receive the update through their respective feeds; standalone asset packs are retained.
 
 ### [v1.5.6 — Shared Workspace](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.6)
 
