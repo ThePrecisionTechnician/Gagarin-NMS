@@ -28,9 +28,9 @@ Use the **[GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-N
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
-| [Standard 1.5.8](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.8) | Required for game assets | About 565 MB, one ZIP |
-| [Compact 1K Standalone 1.5.7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.7) | Not required | About 5.85 GB, three parts for first install. Automatic app update to 1.5.8. |
-| [Full Resolution Standalone](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts. Automatic app update to 1.5.8. |
+| [Standard 1.5.9](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.9) | Required for game assets | About 565 MB, one ZIP |
+| [Compact 1K Standalone 1.5.7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.7) | Not required | About 5.85 GB, three parts for first install. Automatic app update to 1.5.9. |
+| [Full Resolution Standalone](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.4) | Not required | About 15.42 GB, eight parts. Automatic app update to 1.5.9. |
 
 **No Man's Sky Installation Not Required** for either standalone edition.
 
@@ -42,7 +42,7 @@ For Compact Standalone, download **all three parts** into one folder:
 [Part 3](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/compact-v1.5.7/GAGARIN_NMS_Compact1K_v1.5.7.zip.003).
 Open/extract **Part 1 (.001)** with 7-Zip or WinRAR; it reads the other parts automatically. Run `GAGARIN_NMS/GAGARIN NMS.exe`. Do not extract each part separately.
 
-Compact uses its own automatic update feed. The [latest Compact app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.8) applies to existing Compact installs. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
+Compact uses its own automatic update feed. The [latest Compact app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.5.9) applies to existing Compact installs. Routine updates download the application only, verify the installed assets and reader compatibility, and retain the asset pack. Changed assets require a matching standalone download. The application-only CompactUpdate ZIP is not a complete first installation. Older compact builds with updates disabled need the new client installed manually once.
 
 ### Full Resolution Standalone
 
@@ -69,7 +69,7 @@ Builder 1.5.7 shares workspace, favorites and app preferences across all three e
 
 Updater settings, engine configuration and session/recovery data retain their existing profile storage. Shared preferences use the last completed save.
 
-The [latest Full Resolution app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.8) requires an existing Full Resolution installation. **First-time Full Resolution downloads still use the complete eight-part 1.5.4 base above**, then update automatically.
+The [latest Full Resolution app update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.5.9) requires an existing Full Resolution installation. **First-time Full Resolution downloads still use the complete eight-part 1.5.4 base above**, then update automatically.
 
 ## Screenshots
 
@@ -163,7 +163,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download `GAGARIN_NMS_v1.5.8.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
+1. For the Standard edition, download `GAGARIN_NMS_v1.5.9.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -175,7 +175,7 @@ The launcher Setup ZIP installs the launcher; Builder ZIPs remain portable. Use 
 
 Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact 1K and Full Resolution each use a dedicated feed and reject updates from other editions. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.8 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.5.9 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -210,7 +210,7 @@ Engine configuration, updater settings and session/recovery files retain their p
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.5.8.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.5.9.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
@@ -222,6 +222,11 @@ The resulting hash must match the value in the release notes.
 - Organize folders migrates legacy workspace files and missing preferences into Shared, even when installations are already organized.
 - Verified copies, preserved conflicts and external links, and safe retry after interruptions.
 - Updated confirmation and F1 instructions in all 17 languages; Titov stays in the game folder.
+
+### [v1.5.9 — Mirror Precision Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.9)
+
+- Hold **Ctrl** while clicking **−/+** or scrolling over **Mirror at, cm** to move the mirror plane in **1 cm steps**. Release Ctrl to use your normal move step.
+- The Mirror offset tooltip explains the shortcut.
 
 ### [v1.5.8 — Lighting & Photo Mode](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.5.8)
 
