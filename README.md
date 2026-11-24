@@ -163,7 +163,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download `GAGARIN_NMS_v1.6.2.zip` from [Releases](../../releases). For either standalone edition, download every numbered part using its instructions above.
+1. For the Standard edition, download [`GAGARIN_NMS_v1.6.4.zip`](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/v1.6.4/GAGARIN_NMS_v1.6.4.zip). For either standalone edition, download every numbered part using its instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -175,7 +175,7 @@ The launcher Setup ZIP installs the launcher; Builder ZIPs remain portable. Use 
 
 Standard fork builds **1.1.1 and later** check this repository for future standard releases. Compact 1K and Full Resolution each use a dedicated feed and reject updates from other editions. Automatic checks are enabled by default; saved update preferences are respected.
 
-The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Download and install **1.6.2 manually once** to switch to this fork. Later fork releases can be installed through the included updater.
+The mirrored v1.1.0 executable and original developer builds still check the original project's feed. Install the current Standard edition once from this repository or through GAGARIN Launcher to switch to this fork. Later fork releases can be installed through the included updater.
 
 ### Windows warning on first launch
 
@@ -210,7 +210,7 @@ Engine configuration, updater settings and session/recovery files retain their p
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.6.2.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.6.4.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
