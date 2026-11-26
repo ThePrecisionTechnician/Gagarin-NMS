@@ -28,11 +28,11 @@ Use the **[GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-N
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
-| [Standard 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.5) | Required for game assets | About 574 MB, one ZIP |
-| [Compact 1K Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.5) | Not required | About 5.88 GB, three parts for first install. |
-| [Full Resolution Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.5) | Not required | About 15.45 GB, eight parts for first install. |
+| [Standard 1.6.6](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.6) | Required for game assets | About 574 MB, one ZIP |
+| [Compact 1K Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.5) | Not required | About 5.88 GB, three parts for first install. Update to 1.6.6 in Launcher. |
+| [Full Resolution Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.5) | Not required | About 15.45 GB, eight parts for first install. Update to 1.6.6 in Launcher. |
 
-**No Man's Sky Installation Not Required** for either standalone edition.
+**No Man's Sky Installation Not Required** for either standalone edition. The 1.6.6 app updates reuse the 1.6.5 asset packs. See the [Compact 1K update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.6) and [Full Resolution update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.6).
 
 Compact Standalone retains all 117,602 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
 
@@ -161,7 +161,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download [`GAGARIN_NMS_v1.6.5.zip`](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/v1.6.5/GAGARIN_NMS_v1.6.5.zip). For either standalone edition, download every numbered part using its instructions above.
+1. For the Standard edition, download [`GAGARIN_NMS_v1.6.6.zip`](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/v1.6.6/GAGARIN_NMS_v1.6.6.zip). For either standalone edition, download every numbered part using its instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -208,12 +208,20 @@ Engine configuration, updater settings and session/recovery files retain their p
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.6.5.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.6.6.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.6.6 — Builder Controls Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.6)
+
+- The floating Scale control updates live, supports wheel adjustments, and accepts values up to 3000×. Move, Rotate, and Scale have clearer gizmos and wider numeric fields.
+- Use Alt-drag to snap a part to a surface and Alt + wheel to change its mounting face. Use Ctrl for your configured move step, Shift for 1000 cm steps, and Ctrl + Shift for 0.1 cm steps. Hover a Transform value and use Up or Down as an alternative to the mouse wheel.
+- Mirror and the geometry creation tools open in floating panels near the sidebar. The Parts drawer adjusts to the visible sidebar, and Scene can collapse in place below Paint.
+- Escape dismisses the Star Wars Models chooser. Compatible models from your local library are visible in first person, and Vader's cape moves more smoothly during Walkthrough.
+- [Download GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/launcher-stable/GAGARIN_Launcher.exe) to install or update all three editions.
 
 ### [v1.6.5 — Holiday Expeditions & Builder Workspace](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.5)
 
