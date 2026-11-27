@@ -28,11 +28,11 @@ Use the **[GAGARIN Launcher](https://github.com/ThePrecisionTechnician/Gagarin-N
 
 | Edition | No Man's Sky installation | Download |
 |---|---|---|
-| [Standard 1.6.7](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.7) | Required for game assets | About 574 MB, one ZIP |
-| [Compact 1K Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.5) | Not required | About 5.88 GB, three parts for first install. Update to 1.6.7 in Launcher. |
-| [Full Resolution Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.5) | Not required | About 15.45 GB, eight parts for first install. Update to 1.6.7 in Launcher. |
+| [Standard 1.6.8](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.8) | Required for game assets | About 574 MB, one ZIP |
+| [Compact 1K Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.5) | Not required | About 5.88 GB, three parts for first install. Update to 1.6.8 in Launcher. |
+| [Full Resolution Standalone 1.6.5](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.5) | Not required | About 15.45 GB, eight parts for first install. Update to 1.6.8 in Launcher. |
 
-**No Man's Sky Installation Not Required** for either standalone edition. The 1.6.7 app updates reuse the 1.6.5 asset packs. See the [Compact 1K update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.7) and [Full Resolution update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.7).
+**No Man's Sky Installation Not Required** for either standalone edition. The 1.6.8 app updates reuse the 1.6.5 asset packs. See the [Compact 1K update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/compact-v1.6.8) and [Full Resolution update](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/fullres-v1.6.8).
 
 Compact Standalone retains all 117,602 resources from the full standalone edition. Eligible textures use original authored mip levels up to 1K; geometry and material logic are unchanged. Higher-resolution detail requires the full-resolution assets.
 
@@ -161,7 +161,7 @@ Explore the workspace and creation tools. Click any screenshot to view it at ful
 
 ## Install
 
-1. For the Standard edition, download [`GAGARIN_NMS_v1.6.7.zip`](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/v1.6.7/GAGARIN_NMS_v1.6.7.zip). For either standalone edition, download every numbered part using its instructions above.
+1. For the Standard edition, download [`GAGARIN_NMS_v1.6.8.zip`](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/download/v1.6.8/GAGARIN_NMS_v1.6.8.zip). For either standalone edition, download every numbered part using its instructions above.
 2. Extract the Standard ZIP with 7-Zip or Windows File Explorer. Use 7-Zip or WinRAR for either standalone multipart archive.
 3. Run `GAGARIN_NMS\\GAGARIN NMS.exe`.
 
@@ -208,12 +208,17 @@ Engine configuration, updater settings and session/recovery files retain their p
 The release notes include the SHA-256 checksum for the archive. In PowerShell, run:
 
 ```powershell
-Get-FileHash 'GAGARIN_NMS_v1.6.7.zip' -Algorithm SHA256
+Get-FileHash 'GAGARIN_NMS_v1.6.8.zip' -Algorithm SHA256
 ```
 
 The resulting hash must match the value in the release notes.
 
 ## Changelog
+
+### [v1.6.8 — Parts Drawer Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.8)
+
+- Clicking a Parts category name or its **All** row expands its sections by default. Change this under **File → View → Expand Parts on All**.
+- Builder restores the floating Parts window on restart with its last monitor, position, size, and maximized state. When that monitor is unavailable, Parts docks back into Builder.
 
 ### [v1.6.7 — Camera and Walkthrough Hotfix](https://github.com/ThePrecisionTechnician/Gagarin-NMS/releases/tag/v1.6.7)
 
